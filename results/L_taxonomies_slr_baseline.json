@@ -1,0 +1,207 @@
+{
+  "title": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions"
+    }
+  ],
+  "authors": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Albshaier, L.; Almarri, S.; Rahman, M. M. H."
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Oz, H.; Aris, A.; Levi, A.; Uluagac, A. S."
+    }
+  ],
+  "year": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "2024 (Information, vol. 15, issue 8, article 484; published 14 August 2024)"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "2022 (ACM Computing Surveys, vol. 54, issue 11s, article 238, pp. 1-37; published online 9 September 2022)"
+    }
+  ],
+  "journal": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Information (MDPI; ISSN 2078-2489). CORRECTION of candidate-registry entry: the candidate paper was registered as 'Albshaier et al. 2024 Applied Sciences', but verification confirmed the SLR was published in MDPI Information, not Applied Sciences; authors and SLR identity match"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "ACM Computing Surveys (CSUR) (Association for Computing Machinery; ISSN 0360-0300)"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Q2 per Scimago SJR - Information Systems (MDPI Information), Q2 continuously 2021-2025; SJR 2025 = 0.805; JCR category rank Q2 (Computer Science, Information Systems)"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Q1 per Scimago SJR - Computer Science (miscellaneous), Q1 continuously 2000-2025; SJR 2022 = 4.457 and SJR 2025 = 5.985; Theoretical Computer Science Q1 2023-2025"
+    }
+  ],
+  "source_database": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Google Scholar and Scopus (MDPI Information is Scopus-indexed, coverage 2010-present); verified against the MDPI article page and Semantic Scholar record (gold open access, CC-BY)"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Google Scholar (cited by ~500) and Scopus (ACM Computing Surveys Scopus-indexed); verified against the ACM Digital Library record and the arXiv preprint (arXiv:2102.06249v2) with related DOI 10.1145/3514229"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "https://doi.org/10.3390/info15080484"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "https://doi.org/10.1145/3514229"
+    }
+  ],
+  "study_type": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Systematic literature review (SLR) with explicit PRISMA flow diagram; covers papers published 2020-2024 on early ransomware detection"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Comprehensive narrative academic survey / taxonomy paper (not PRISMA-registered); covers 137 primary studies published 1989-2020"
+    }
+  ],
+  "methodology": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "PRISMA-guided study selection (flow diagram in Section 2) filtering systematic-search results from academic databases plus industry reports and case studies, restricted to 2020-2024 publications. Contribution: categorisation of early-ransomware-detection approaches into signature-based, behaviour-pattern-based and machine-learning-based methods, assessment of their effectiveness, discussion of new trends, and identification of gaps, to guide proactive detection design. Verified against the MDPI article page, its abstract, and the Semantic Scholar record."
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Structured literature synthesis of 137 studies (1989-2020) across three target platforms (PCs/workstations, mobile devices, IoT/CPS). Contributions: detailed ransomware evolution narrative from early disk-encryptingPoC families to modern double-extortion campaigns; analysis of key ransomware building blocks (infection vectors, payload, hybrid encryption, C&C, anti-analysis); a taxonomy of notable ransomware families; platform-wise categorisation of defense research into analysis, detection (cryptographic, behaviour- and network-based, ML, rule-based/formal-methods/hybrid) and recovery (backups, key-derivation). Verified against ACM DL full record and the arXiv accepted-version PDF."
+    }
+  ],
+  "key_findings": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Early detection before encryption is feasible only by combining warning signs, frameworks and proactive techniques; signature-only approaches fail against ever-changing samples while behaviour- and ML-based approaches offer the strongest proactive direction as long as features (API calls, file I/O anomalies, network behaviours) are captured pre-execution; the review enumerates gaps in current research and stresses that detection technology must evolve continuously with the ransomware threat landscape."
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "First survey to jointly cover evolution, taxonomy and defense across workstation, mobile and IoT/CPS platforms: documents the shift from simple locker/crypto families toward target-of-choice, double-extortion and platform-diversified operations; shows detection research is dominated by workstation-focused ML/behavioural methods while IoT/CPS defense studies rely almost exclusively on network-activity features; derives an extensive list of open research issues (evasion, portable-platform coverage, IoT/CPS defenses, lack of unified evaluation)."
+    }
+  ],
+  "limitations": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Restricted time window (2020-2024) and English-language emphasis limits coverage of the long pre-2020 detection canon and non-English literature; qualitative assessment of effectiveness - no standardised quantitative re-benchmarking of the surveyed detectors; MDPI special-issue review so inclusion criteria beyond the PRISMA flow are self-imposed; observed limitation: only a single lateral perspective (early detection), excluding payment/economics and incident-response literature."
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Coverage stops at studies published through 2020, pre-dating the 2021-2024 surge in double-extortion RaaS, leak sites and healthcare-focused campaigns; narrative (non-PRISMA) search process limits reproducibility of the corpus; no quantitative meta-comparison of reported detection accuracies across platforms."
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Explicitly points out gaps in current early-detection research: insufficient benchmark datasets and standardised evaluation; weak pre-encryption behaviour coverage; limited integration of ML with frameworks and industry indicators; calls for strong, proactive, continuously updated detection systems as the future direction."
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Provides the extensive open-issues list used as the comparison baseline for the present review: no study existed giving a complete platform-diverse picture of ransomware and defenses; gaps include IoT/CPS defense research, recovery research, evaluation-uniformity, evading/anti-analysis countermeasures, and mobile-ransomware coverage."
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "retained-included"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "PASS. Source: Scopus/Google Scholar-indexed journal. Year: 2024, within 2022-2026 window. Quartile: Q2 by Scimago SJR (Information Systems, SJR 2025 = 0.805) - meets the Q1/Q2 eligibility criterion. Topical fit: baseline pillar - existing PRISMA-style ransomware SLR used for comparison and as a PRISMA flow-diagram pattern source; journal mis-attribution (Applied Sciences) corrected to Information (MDPI) during verification."
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "PASS. Source: Scopus/Google Scholar-indexed journal (ACM CSUR). Year: 2022, within 2022-2026 window. Quartile: Q1 by Scimago SJR (4.457 in 2022; 5.985 in 2025). Topical fit: baseline pillar - the highest-cited ransomware taxonomy/defense survey of the window, used to position the new review against prior SLRs and to source taxonomic categories."
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Framework-level review is platform-agnostic; the reviewed early-detection studies predominantly concern Windows endpoint environments, with partial coverage of mobile/Android detection work"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Explicitly stratified by platform: PCs/workstations (Windows-dominant), mobile devices (Android/iOS), and IoT/CPS environments"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Pre-encryption (early detection of ransomware before harm; the review's stated objective) - maps to pre-execution/pre-impact monitoring equivalent of pre-T1486 stages"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Full chain: pre-encryption (infection vectors, C&C, anti-analysis analysis), during/post-encryption (system and file-level detection, T1471/T1486 impact side) and post-encryption recovery"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Corpus = SLR-selected publications (2020-2024) gathered by PRISMA flow from academic databases plus industry reports and case studies; not a security benchmark and not open-sourced ([uncertain] final included-paper count not verified in accessible index)"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Corpus = 137 primary studies (1989-2020) from journals and conferences, plus notable ransomware family samples discussed; corpus itself not open-sourced but fully enumerated in the paper's reference list"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Qualitative effectiveness assessment of surveyed detection methods; no standardised quantitative metric table guaranteed ([uncertain] exact accuracy/F1 figures reported per method not verified in accessible index); no detection-latency or false-positive-rate aggregation"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Comparative tables of detection approaches per platform with the outcome measures reported by primary studies (typically accuracy/precision/recall/F-score for ML detectors); review itself introduces no new quantitative benchmark"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Moderate: PRISMA flow diagram and selection process are published (Section 2, Figure 1) in a gold-open-access CC-BY article, enabling corpus re-derivation; exact search strings/database counts are only summarised ([uncertain] protocol transparency detail)"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Moderate: complete 137-study coverage list and taxonomy enable locating all primary works, but the survey uses a narrative (non-PRISMA) method with no documented search protocol; free-access ACM version plus arXiv version ease verification"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review (Albshaier et al. 2024)",
+      "value": "Not a threat-intelligence source: no RaaS group named, no leak-site or wallet-tracing analysis; only generic ransomware strain examples as context"
+    },
+    {
+      "paper": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions (Oz et al. 2022, ACM Computing Surveys)",
+      "value": "Partial: taxonomy of notable ransomware families (e.g., CryptoLocker, WannaCry, Locky, Cerber, Android/Linux locker families) by behaviour and platform, and documented operational activities (e.g., Tesla insider-bribe incident, double-extortion evolution); no RaaS-group attribution, leak-site telemetry or wallet-tracing coverage (pre-RaaS-literature cutoff 2020)"
+    }
+  ],
+  "uncertain": [
+    "dataset_benchmark (final included-paper count for Albshaier et al. 2024 SLR)",
+    "evaluation_metrics (exact per-method quantitative figures quoted by Albshaier et al. 2024)",
+    "reproducibility (protocol-documentation detail of Albshaier et al. 2024 search)"
+  ]
+}

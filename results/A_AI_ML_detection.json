@@ -1,0 +1,223 @@
+{
+  "title": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Ransomware Detection Using Machine Learning: A Review, Research Limitations and Future Directions"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "A Survey of Ransomware Detection Methods"
+    }
+  ],
+  "authors": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Ispahany, J.; Islam, M.R.; Islam, M.Z.; Khan, M.A."
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Alzahrani, S.; Xiao, Y.; Asiri, S.; Zheng, J.; Li, T."
+    }
+  ],
+  "year": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": 2024
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": 2025
+    }
+  ],
+  "journal": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "IEEE Access (Vol. 12, published 7 May 2024)"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "IEEE Access (Vol. 13, pp. 57943-57982, published 1 April 2025)"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Q1 (Scimago SJR 2024, Computer Science (miscellaneous): SJR 0.849, Q1)"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Q1 (Scimago SJR 2025, Computer Science (miscellaneous): SJR 0.884, Q1)"
+    }
+  ],
+  "source_database": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "IEEE Xplore (record 10521643)"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "IEEE Xplore (record 10945868); cross-verified via DOAJ record 655bae4ce3c4475d9e4fa3f3471db122"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "https://doi.org/10.1109/ACCESS.2024.3397921"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "https://doi.org/10.1109/ACCESS.2025.3556187"
+    }
+  ],
+  "study_type": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Systematic-style review of ML-based ransomware detection systems (approx. 75 primary studies reviewed)"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Survey of ransomware detection methods 2019-2025 (135 papers reviewed and filtered; 45 papers on Windows/Android selected for in-depth analysis)"
+    }
+  ],
+  "methodology": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Structured review of ML-based ransomware detection literature. Search terms: 'ransomware', 'detection', 'machine learning', 'deep learning' across academic archives. Proposes a taxonomy of detection phases, ML techniques and system designs; maps studies onto the Cyber-Kill Chain (CKC) to determine the earliest feasible detection point; collates and reviews ransomware detection datasets; distinguishes early vs real-time detection."
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Survey of detection literature 2019-2025: 135 papers initially reviewed and filtered by scope and venue; 45 papers focused on Windows or Android detection selected for in-depth analysis. Methods categorised into ML-based and non-ML-based with advantages/drawbacks of each; dedicated analysis of Ransomware-as-a-Service (RaaS) mechanics; catalogue of datasets used in the reviewed literature with structures and limitations."
+    }
+  ],
+  "key_findings": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Most proposed ML detection systems lack practicality for real-world attacks and are reactive with delayed detection; early-detection potential is under-exploited because studies are rarely mapped to CKC stages; dataset heterogeneity (most studies build ad-hoc datasets from VirusTotal etc.) impedes cross-study validation; the review supplies a dataset catalogue and a CKC-aligned design taxonomy to remedy this."
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "ML-based and non-ML-based detection methods each have complementary strengths and weaknesses for zero-day/unknown variants; RaaS lowers the entry barrier for attackers and drives attack growth; reviewed datasets are fragmented and often unavailable, limiting reproducibility; identifies gaps and future directions for more robust ransomware detection systems."
+    }
+  ],
+  "limitations": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Acknowledged: prior surveys neglect system design and real-time/early detection practicality; most reviewed studies rely on non-standardised, self-built datasets; many reviewed systems are reactive and cannot handle modern evasion. Observed: the review itself does not empirically validate any detection design; no PRISMA flow documented."
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Acknowledged: reviewed datasets have structural limitations and restricted availability; detection methods struggle with zero-day and unknown variants. Observed: in-depth analysis restricted to Windows and Android only (other platforms excluded from the 45-paper core set); selection criteria ('filtered based on scope and publication venue') are not formalised as a PRISMA flow."
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Gap in practical, real-time and early (CKC-aligned) detection designs; need for standardised benchmark datasets; need for systems robust to evasion techniques used by modern ransomware families; gap between laboratory accuracy and real-world deployability."
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Need for more effective and dynamic detection of zero-day/unknown variants; dataset availability and standardisation gaps; understanding of RaaS-driven threat landscape needs to be integrated into detection research; robustness of current methods across OS platforms."
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "retained-included"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Passes: published May 2024, IEEE Access SJR Q1 (0.849, 2024), IEEE Xplore record 10521643 verified; directly relevant as a review of ML-based ransomware detection with CKC-aligned early-detection taxonomy."
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Passes: published April 2025, IEEE Access SJR Q1 (0.884, 2025), IEEE Xplore record 10945868 verified; covers detection methods 2019-2025 including RaaS, extending the cluster's temporal coverage."
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Multi-platform review; Windows endpoints emphasised (Sysmon/log-based detection designs), Android also covered"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Windows and Android operating systems (45 in-depth papers restricted to these two platforms)"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Explicitly maps detection studies to Cyber-Kill Chain stages; advocates pre-encryption/early detection before T1485 (Data Encrypted for Impact); distinguishes early vs real-time detection"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Detection methods reviewed span pre-encryption (early/behavioural indicators) through during-encryption (T1485); encryption-stage focus dominates"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Collates a list of ransomware detection datasets used in the literature (section IV-B2), including VirusTotal-derived self-built corpora; notes most are not open-sourced and non-standardised"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Catalogues datasets used in the 45 reviewed papers with their structures and limitations; notes availability/reproducibility limitations; no new dataset released"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Survey-level: discusses evaluation of reviewed systems with emphasis on early-detection timing, false-positive concerns and dataset comparability; specific metric tables for primary studies are reported in the paper's survey tables"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Survey-level: discusses effectiveness and limitations of ML-based vs non-ML-based methods as reported by primary studies (accuracy-oriented reporting); no new empirical metrics produced"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Moderate risk: review includes dataset catalogue enabling partial replication of reviewed settings; notes most primary studies use self-built datasets and sandbox-only evaluation, limiting external validation of the field's claims"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Moderate risk: 135->45 paper filtering is described but not formalised (no PRISMA flow diagram); dataset catalogue supports reproducibility of reviewed experiments where datasets are public; no new empirical evaluation"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper_id": "isphany2024_ml_review",
+      "value": "Partially applicable: reviews recent ransomware families, attack trends and TTPs observed in the wild, and government responses; no leak-site or payment-wallet tracing analysis"
+    },
+    {
+      "paper_id": "alzahrani2025_survey_detection_methods",
+      "value": "Applicable: dedicated section on Ransomware-as-a-Service (RaaS) explaining its operation and its effect on the increase in ransomware attacks; no leak-site evidence or payment-wallet tracing coverage"
+    }
+  ],
+  "excluded_records": [
+    {
+      "candidate_as_cited": "Chaieb et al. 2023 IEEE Access (AI ransomware detection taxonomy)",
+      "actual_record": "Chaieb, O.; Kannouf, N.; Benabdellah, M. 'A Systematic Review and Taxonomy of Ransomware Detection Based on Artificial Intelligence Algorithms', 2024 3rd International Conference on Embedded Systems and Artificial Intelligence (ESAI), IEEE Xplore record 10913856, DOI 10.1109/ESAI62891.2024.10913856",
+      "decision": "EXCLUDED",
+      "reason": "Conference proceeding (ESAI 2024), not a Scimago SJR-indexed Q1/Q2 journal; also published 2024/2025, not 2023 as cited. Replaced in the cluster by Razaulla et al. 2023 IEEE Access survey (Q1), which provides the equivalent AI-ransomware-detection taxonomy anchor."
+    },
+    {
+      "paper_ref": "ferdous2024",
+      "decision": "PRUNED",
+      "title": "AI-Based Ransomware Detection: A Comprehensive Review",
+      "reason": "Record-overlap prune: AI-detection scope redundant with isphany2024_ml_review and alzahrani2025_survey_detection_methods"
+    },
+    {
+      "paper_ref": "razaulla2023",
+      "decision": "PRUNED",
+      "title": "The Age of Ransomware: A Survey on the Evolution, Taxonomy, and Research Directions",
+      "reason": "Record-overlap prune: coverage of ransomware evolution/taxonomy redundant with alzahrani2025 (2019-2025 survey) and isphany2024; earliest of three overlapping IEEE Access reviews"
+    }
+  ],
+  "uncertain": []
+}

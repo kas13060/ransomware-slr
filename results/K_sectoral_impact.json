@@ -1,0 +1,214 @@
+{
+  "title": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals"
+    }
+  ],
+  "authors": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Neprash, H.; McGlave, C.; Nikpay, S."
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Abouk, R.; Powell, D."
+    }
+  ],
+  "year": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "2026 (American Economic Journal: Economic Policy, vol. 18, no. 1, February 2026, pp. 256-281)"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "2024 (JAMA, vol. 331, no. 24, June 25 2024, pp. 2129-2131; published online May 29, 2024)"
+    }
+  ],
+  "journal": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "American Economic Journal: Economic Policy (American Economic Association; ISSN 1945-7731)"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "JAMA (American Medical Association; ISSN 0098-7484) - Research Letter"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Q1 per Scimago SJR - Economics, Econometrics and Finance (miscellaneous), Q1 every year 2010-2025; SJR 2025 = 7.737; also Q1 by Scopus CiteScore (9.4, 2025)"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Q1 per Scimago SJR - Medicine (miscellaneous), Q1 every year 1999-2025; SJR 2025 = 5.843"
+    }
+  ],
+  "source_database": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Google Scholar and Scopus (Scopus Q1-indexed journal, coverage 2009-present); DOI record verified via Crossref and the AEA publisher page"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Google Scholar and Scopus (journal indexed via PubMed/MEDLINE and Scopus); verified against the JAMA article page and PubMed record PMID 38809568 (PMC11137657)"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "https://doi.org/10.1257/pol.20240594 (replication data and code: https://doi.org/10.3886/E235483V1)"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "https://doi.org/10.1001/jama.2024.7752"
+    }
+  ],
+  "study_type": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Econometric study (quasi-experimental causal evaluation): event-study / difference-in-differences design linking an original ransomware attack database to Medicare claims"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Econometric study / case-control research letter: two-stage difference-in-differences regression with event-study framework, hospital-bed-weighted, comparing attacked, nearby-unattacked and unattacked hospitals"
+    }
+  ],
+  "methodology": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Authors constructed a database of US hospital ransomware attacks and linked it to 100% Medicare fee-for-service claims data; impacts on hospital operations and patient outcomes are quantified with event-study / continuous-treatment difference-in-differences estimators (Callaway-Goodman-Bacon-Sant'Anna style) around attack weeks. Record verified against Crossref DOI metadata (51 references) and the AEA abstract. JEL codes I12, I13, D83, K42."
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Attacks identified from the HHS OCR breach portal cross-checked with online media coverage, restricted to attacks disruptive to care delivery. California hospital panel 2014-2020 (82,359,450 ED visits; 23,475,497 inpatient admissions): 8 disruptive ransomware attacks affecting 15 hospitals vs 355 unattacked hospitals, plus analysis of unattacked hospitals in the same hospital service area (n=17 nearby vs n=20 other). Two-stage difference-in-differences, bed-weighted, event-study specifications. Verified against the JAMA full text (PMC11137657) and PubMed."
+    }
+  ],
+  "key_findings": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Ransomware attacks reduce hospital volume by 17-24% during the initial attack week, with recovery within 3 weeks. Among patients already admitted when an attack begins, in-hospital mortality increases by 34-38%. These are among the first causal estimates directly tying hospital ransomware to excess deaths, quantifying the outcome justification for incident-response and cybersecurity investment in healthcare."
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "In attacked hospitals, weekly ED visits fell 8.10% (95% CI -14.40 to -1.80) in week 1 and 16.21% (95% CI -26.58 to -5.84) in week 2; inpatient admissions fell 8.16% (95% CI -19.92 to 3.60) in week 1 and 16.62% (95% CI -31.28 to -2.00) in week 2, returning to pre-attack levels within about 8 weeks. ED visits temporarily increased at unattacked nearby hospitals in the same service area, showing spillover displacement of care beyond targets."
+    }
+  ],
+  "limitations": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Medicare claims cover predominantly elderly fee-for-service patients, limiting generalisation to younger/commercial populations; attack list depends on public reporting (underreporting of unreported attacks); attacks may be correlated with unobserved hospital characteristics, mitigated but not eliminated by identification strategy; short-run outcomes dominate the claims horizon."
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Only 8 attacks/15 hospitals (small treatment count, wide CIs); single US state (California), 2014-2020 window predating the 2021-2023 attack surge; outcome restricted to ED visits and inpatient admissions (no clinical complication or mortality outcomes); attack identification relies on HHS portal plus media triangulation, possible mismeasurement. The research-letter format limits granularity."
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Extends the literature from descriptive attack counts and ED-volume disruption to causal patient-outcome impacts (mortality); remaining gaps include non-Medicare populations, community/ambulatory clinics, cost-of-incident response, and mechanisms (e.g., delayed procedures) through which attacks raise mortality."
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Identifies inter-hospital spillover effects as an under-measured dimension of ransomware harm; gaps remain in clinical outcomes of displaced patients (e.g., longer treatment times found in adjacent ED studies), multi-state replication, and post-2020 attack-wave evidence."
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "retained-included"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "PASS. Source: Scopus/Google Scholar-indexed journal. Year: February 2026, within 2022-2026 window. Quartile: Q1 by Scimago SJR (7.737). Topical fit: quantified hospital consequences - core outcome-metrics pillar justifying incident-response investment."
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "PASS. Source: Scopus/PubMed-indexed journal. Year: 2024, within window. Quartile: Q1 by Scimago SJR (5.843). Topical fit: ED-visit disruption metrics sectoral impact study. Note: research-letter format - retained for quantified outcome evidence, not as a methodological exemplar."
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Not device-specific: hospital enterprise IT/clinical systems environment (US inpatient settings); no endpoint OS is the unit of analysis"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Not device-specific: hospital enterprise IT environment (electronic medical record servers of attacked hospitals); platform-level, no named OS"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Post-encryption: quantifies post-attack operational disruption (volume loss, T1486 impact side) and patient outcomes; not about attacker technique execution"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Post-encryption: measures service disruption in the weeks following destructive attacks (impact on care delivery); secondary spillover effects on unattacked hospitals"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Hospital ransomware-attack database constructed by the authors, linked to 100% Medicare FFS claims; replication data and code openly deposited at ICPSR (doi 10.3886/E235483V1, AEA publisher-hosted) - open-sourced (restricted-use Medicare data accessed through CMS/ResDAC channels)"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "HHS OCR breach portal attack list (gazetted publicly) combined with California statewide ED/inpatient data (82.4M ED visits, 23.5M admissions, 2014-2020); supplemental data-sharing statement available via JAMA; California OSHPD/state data are requestable, not fully open ([uncertain] whether analytic dataset is redistributed)"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Health-outcome econometric metrics rather than ML metrics: percentage change in hospital volume during attack week (17-24% decrease), recovery time (3 weeks), and in-hospital mortality increase among admitted patients (34-38%) with confidence-interval-based inference; no F1/precision/recall or detection-latency metrics"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Difference-in-differences percentage changes (95% CI) for weekly ED visits (-8.10% week 1, -16.21% week 2) and inpatient admissions (-8.16% / -16.62%), recovery horizon (~8 weeks), R-squared 0.90-0.98; no security-detection metrics"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "High: AEA requires deposit of data and code - both publicly archived (ICPSR doi 10.3886/E235483V1); Medicare claims access requires CMS approval, but analysis recipes, event windows and identification strategy are externally auditable"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Moderate: two-stage DiD specification, attack list source (HHS portal + media cross-check) and DIDs parameters are reported in the research letter and supplement (data-sharing statement); California state data access requires application, limiting turnkey reproduction ([uncertain] code deposit)"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+      "value": "Marginal: references the TrickBot/Conti ecosystem in background sourcing only; no RaaS group named as analytic subject, no leak-site or wallet-tracing analysis"
+    },
+    {
+      "paper": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+      "value": "Not applicable: attack actors unknown; no RaaS group, leak-site or wallet evidence analysed"
+    }
+  ],
+  "uncertain": [
+    "dataset_benchmark (redistribution status of California state data; SAS code availability for Jiang et al.)",
+    "reproducibility (code deposit confirmations for Abouk-Powell and Jiang et al.)"
+  ],
+  "excluded_records": [
+    {
+      "paper_ref": "K_impackt_paper3",
+      "decision": "PRUNED",
+      "title": "Ransomware Attacks and Data Breaches in US Health Care Systems",
+      "reason": "Overlap prune: JAMA Network Open 2025 descriptive breach-trend analysis; causal DiD evidence retained in Neprash2026 (AEJ) and Abouk-Powell2024 (JAMA)"
+    }
+  ]
+}

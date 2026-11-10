@@ -1,0 +1,223 @@
+{
+  "title": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "MFMCNS: a multi-feature and multi-classifier network-based system for ransomworm detection"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "HFL-RD: Heterogeneous Federated Learning-Empowered Ransomware Detection via APIs and Traffic Features"
+    }
+  ],
+  "authors": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Almashhadani, A.O.; Carlin, D.; Kaiiali, M.; Sezer, S."
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Lan, K.; Li, G.; Huang, W.; Li, J."
+    }
+  ],
+  "year": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": 2022
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": 2025
+    }
+  ],
+  "journal": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Computers & Security (Elsevier), Article 102860, published online 28 July 2022"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "IEEE Transactions on Network and Service Management, published online 29 May 2025"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Q1 (Scimago SJR 2022: SJR 1.605; Q1 in Computer Science (miscellaneous) and Law)"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Q1 (Scimago SJR 2025: SJR 1.389; Q1 in Computer Networks and Communications and Electrical and Electronic Engineering)"
+    }
+  ],
+  "source_database": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "ScienceDirect (Elsevier); DOI 10.1016/j.cose.2022.102860; cross-verified via Scopus-indexed citation records"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "IEEE Xplore; DOI 10.1109/TNSM.2025.3574716"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "https://doi.org/10.1016/j.cose.2022.102860"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "https://doi.org/10.1109/TNSM.2025.3574716"
+    }
+  ],
+  "study_type": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Empirical experiment / system design: network traffic behavioural analysis and multi-classifier fusion system, evaluated on WannaCry and NotPetya campaign traffic"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Empirical experiment / system design: heterogeneous federated learning detection scheme combining network (C&C) and endpoint (API) features, evaluated on public ransomware/benign sample collections"
+    }
+  ],
+  "methodology": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Comprehensive behavioural analysis of ransomworm (self-propagating ransomware) network traffic using WannaCry and NotPetya as case studies. Two independent feature sets are extracted at two flow levels: session-based and time-based; an independent classifier is built on each set; MFMCNS runs the classifiers in parallel and combines their decisions with a fusion rule to improve reliability, enabling detection while the worm spreads across the network before payload execution."
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Heterogeneous federated learning scheme (HFL-RD) integrating (a) Command-and-Control (C&C) traffic behaviour analysis and (b) local API call operation analysis to capture concealed ransomware characteristics; one-dimensional convolution pre-processing of raw traffic preserves structural network features; dynamic regularisation methods and penalty terms resolve the non-IID problem when aggregating ransomware features across federated clients. Experimental dataset: 300 runnable ransomware samples from 30 families plus 200 benign software samples from 7 categories gathered from three public websites."
+    }
+  ],
+  "key_findings": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "MFMCNS proved reliable with high detection accuracy against ransomworm propagation traffic (WannaCry, NotPetya); combining session-based and time-based flow classifiers through a fusion rule improves reliability over single-view network detection; network-based detection can catch ransomworm activity before the payload executes on new hosts."
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "HFL-RD obtained accuracy over 95% and outperformed existing methods; for unknown ransomware variants it demonstrated superior detection capability in terms of detection time and number of file corruptions; the combination of C&C traffic analysis with API call analysis captures covert evolution characteristics of advanced ransomware that single-view methods miss."
+    }
+  ],
+  "limitations": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Acknowledged/observed: evaluation limited to two worm-propagating campaigns (WannaCry, NotPetya); method targets propagation-phase traffic, so ransomware without self-spreading behaviour (classic crypto-lockers) is not the detection target; specific accuracy figures vary by flow level and are reported per classifier rather than as a single unified benchmark."
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Acknowledged/observed: federated architecture introduces communication/training overhead and assumes multiple participating clients; requires joint deployment of endpoint API telemetry and network monitoring; evaluation uses publicly downloadable samples rather than live enterprise campaigns; exact false-positive rate under production traffic load is not characterised in the abstract-level results."
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Gap addressed: host-based methods only detect after infection and payload execution, whereas network-based analysis of ransomworm propagation enables pre-execution early warning. Remaining gaps: generalisation beyond WannaCry/NotPetya-style worms, robustness to encryption of propagation traffic, and larger multi-family campaign evaluation."
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Gap addressed: traditional methods treat external (network) and internal (endpoint) ransomware behaviours separately, missing covert evolution of advanced ransomware; federated learning enables privacy-preserving collaborative detection across clients with non-IID ransomware data. Remaining gaps: scaling to more heterogeneous clients, adversarial robustness of the federated model, and real-world deployment validation."
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "retained-included"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Passes: published 2022, Computers & Security is SJR Q1 (1.605, 2022), sourced from ScienceDirect (allowed database); anchors the network IDS pillar for ransomware campaign (ransomworm propagation) detection."
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Passes: published 2025, IEEE Transactions on Network and Service Management is SJR Q1 (1.389, 2025), sourced from IEEE Xplore (allowed database); provides the most recent network+endpoint hybrid detection record, extending the cluster's temporal coverage to 2025."
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Network-level (enterprise/campus networks); campaign targets are Windows systems (WannaCry, NotPetya)"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Network + endpoint hybrid: C&C traffic monitoring at network level plus local API call analysis on endpoints (Windows-oriented ransomware samples)"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Pre-encryption / pre-execution: detects ransomworm propagation traffic as it spreads to infect other hosts, before payload (encryption) runs on new victims"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Pre-encryption (C&C communication stage, T1486-adjacent command channel) combined with during-encryption detection via local API call sequences (T1485)"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Own PCAP-based traffic captures of WannaCry and NotPetya propagation plus benign background traffic; not stated to be publicly open-sourced"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Dataset assembled from three public websites: 300 runnable ransomware samples from 30 families and 200 benign samples from 7 categories; constituent sources are public but the assembled corpus is not stated to be released as a unified open dataset"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Detection accuracy per flow-level classifier (session-based and time-based) and for the fused MFMCNS system; reliability of the fusion rule; specific unified accuracy figure is reported inside the paper's evaluation section rather than the abstract"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Detection accuracy (>95%); detection time for unknown variants; number of file corruptions before detection; comparative performance against existing methods"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Moderate risk: methodology (feature sets, classifier fusion) is described in reproducible detail, but the WannaCry/NotPetya capture corpus is not clearly published; comparison baselines are the component classifiers rather than external state-of-the-art systems"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Moderate risk: sample counts (300 ransomware / 30 families / 200 benign) and federated design are documented and constituent sources are public, but the assembled dataset, federated client configuration and code are not stated to be released; comparisons against existing methods are reported without shared benchmarks"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper_id": "almashhadani2022_mfmcns",
+      "value": "Partially applicable: analyses WannaCry and NotPetya campaign traffic as case studies (well-known campaign malware), but performs no actor attribution, leak-site analysis or wallet tracing"
+    },
+    {
+      "paper_id": "lan2025_hflrd_tnsm",
+      "value": "Not applicable: no RaaS group naming, leak-site evidence or payment-wallet tracing; 30 ransomware families used as detection targets without actor attribution"
+    }
+  ],
+  "excluded_records": [
+    {
+      "candidate_as_cited": "Suggested venues: Expert Systems with Applications / Computers & Security / IEEE Access 2022-2026",
+      "actual_record": "Three papers retained: Berrueta et al. (ESWA 2022), Almashhadani et al. (C&S 2022), Lan et al. (IEEE TNSM 2025)",
+      "decision": "RETAINED (3 papers)",
+      "reason": "All three are SJR Q1 journal papers from allowed databases (ScienceDirect, IEEE Xplore), within 2022-2026, and squarely on encrypted-traffic analysis / network IDS for ransomware. No candidate in this cluster required exclusion; conference papers encountered during search (e.g., IEEE CNS 2024 context-aware detection, IEEE CSR 2023 GMM-HMM, C4D 2025 deep-learning encrypted traffic) were not retained because they are non-SJR-indexed conference proceedings."
+    },
+    {
+      "candidate_as_cited": "HyperVision - Flow Interaction Graph Analysis (IEEE/ACM Transactions on Networking 2024)",
+      "actual_record": "Fu, C.; Li, Q.; Xu, K. IEEE/ACM ToN 32(4):2972-2987, 2024",
+      "decision": "EXCLUDED from cluster C",
+      "reason": "Q1 journal and methodologically relevant to encrypted malicious traffic, but it is a general encrypted-malware-traffic detector (140 generic attacks) with no ransomware-specific evaluation, so it was deprioritised in favour of ransomware-specific network detection papers to keep cluster C on-topic."
+    },
+    {
+      "paper_ref": "berrueta2022",
+      "decision": "PRUNED",
+      "title": "Crypto-ransomware detection using machine learning models in file-sharing network scenarios with encrypted traffic",
+      "reason": "Recency/overlap prune: oldest traffic-based record (2022); encrypted-traffic detection scope covered by almashhadani2022 (in-network) and lan2025 (federated, current)"
+    }
+  ],
+  "uncertain": []
+}

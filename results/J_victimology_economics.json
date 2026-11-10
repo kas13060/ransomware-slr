@@ -1,0 +1,206 @@
+{
+  "title": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Examining ransomware payment decision-making among small- and medium-sized enterprises"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "NAS ransomware: ransomware targeting NAS devices"
+    }
+  ],
+  "authors": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Matthijsse, S. R.; Moneva, A.; van 't Hoff-de Goede, M. S.; Leukfeldt, E. R."
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Meurs, T.; Hoheisel, R.; Junger, M.; Abhishta, A."
+    }
+  ],
+  "year": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "2025 (issue year, European Journal of Criminology vol. 22, issue 4, pp. 625-645; first published online 14 November 2024)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "2026 (print issue year, Global Crime vol. 27, issue 2-3, pp. 135-158; first published online 26 November 2025)"
+    }
+  ],
+  "journal": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "European Journal of Criminology (SAGE, journal of the European Society of Criminology; ISSN 1477-3708)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Global Crime (Taylor & Francis / Routledge; ISSN 1744-0572)"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Q1 per Scimago SJR - Law category, Q1 continuously 2005-2025; SJR 2025 = 1.029 (also ranked in Sociology and Political Science)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Q1 per Scimago SJR - Sociology and Political Science, 2025; SJR 2025 = 0.609 (CiteScore 2024 Q1 per Scopus)"
+    }
+  ],
+  "source_database": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Scopus (journal-indexed record) and Google Scholar; DOI metadata cross-verified via publisher (SAGE Journals)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Scopus (record SCOPUS:105023059210 confirmed via University of Twente Pure profile) and Google Scholar"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "https://doi.org/10.1177/14773708241285671"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "https://doi.org/10.1080/17440572.2025.2591628"
+    }
+  ],
+  "study_type": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Empirical victimology study: survey with an embedded scenario-based (vignette) factorial experiment among SME decision-makers"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Empirical victimology case-series study: secondary analysis of police-registered ransomware attack reports plus a single case study of a law-enforcement intervention"
+    }
+  ],
+  "methodology": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Online survey with a vignette experiment administered via the I&O Research entrepreneurs' panel to 445 owners/managers of Dutch small- and medium-sized enterprises (EU Recommendation 2003/361/EC SME definition). Respondents rated inclination to pay under systematically varied scenario factors (ransom affordability, existence of backups, advice from a cybersecurity company). Data analysed in R with regression models, consistent with a rational-choice / situational-crime-prevention framing. Record verified against Crossref DOI metadata (58 references) and the SAGE article abstract."
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Quantitative analysis of 502 ransomware attacks reported to the Dutch national police between 2019 and 2022, of which 104 (20.7%) targeted Network Attached Storage (NAS) devices such as QNAP units, spanning both households and organisations. Victim characteristics, attack characteristics and financial impact of NAS versus non-NAS attacks are compared, framed with routine activity theory and the CRAVED/target-suitability literature. The paper additionally reconstructs the October 2022 Dutch police intervention against a QNAP-NAS ransomware strain (DeadBolt), in which the police used a bitcoin payment trick to obtain decryption keys and offer free victim decryption. Record verified against Crossref DOI metadata (60 references), the Taylor & Francis journal page and the University of Twente Pure open-access record."
+    }
+  ],
+  "key_findings": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "The stated likelihood of paying the ransom is low among Dutch SME decision-makers. Being advised to pay by a cybersecurity company significantly increases the likelihood of paying, as does not having a backup. Unexpectedly, the affordability of the ransom demand is not significantly related to the payment decision. Implications: backup adoption and professional-advice norms (rather than ransom size) are the key levers for reducing payment vulnerability and extortion profitability."
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "NAS devices account for a substantial minority of reported attacks: 104 of 502 police-reported ransomware attacks (20.7%) targeted NAS devices, affecting both individuals and companies. Financial impact of an attack on an individual NAS owner is relatively low compared with organisational attacks, but the emotional loss of personal photos/videos makes NAS victimization painful and under-addressed in the public ransomware debate. The October 2022 police intervention against the QNAP-NAS strain demonstrated that law enforcement can convert tracing/seizure into free victim decryption."
+    }
+  ],
+  "limitations": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Stated payment intentions in hypothetical vignettes may not equal real payment behaviour (social desirability/hypothetical bias); single-country (Dutch) sample limits external validity; survey sampling via a commercial panel may skew towards more cyber-aware entrepreneurs; inability vs willingness to pay not fully disentangled. Authors acknowledge that actual victimization conditions may differ from the manipulated vignette factors."
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Data derive from police reports with possible low willingness to report (both individuals and SMEs under-report), so the 20.7% NAS share may not generalise to the true attack population; single-country (Netherlands) register; attack reports include incomplete or victim-supplied details; the law-enforcement intervention case study is a single episode. Authors explicitly name low reporting willingness as the main sample limitation."
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Addresses the gap that little is known about how SMEs respond to ransomware victimization and which factors drive the payment decision - prior ransomware victim studies concentrated on prevalence and large enterprises. Leaves open real-payment validation, cross-jurisdiction replication, and study of negotiator/insurer influence."
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Addresses the gap that ransomware research overwhelmingly focuses on Windows endpoints and enterprise double-extortion campaigns, largely ignoring consumer/SOHO NAS appliances as a distinct victim population. Highlights that NAS ransomware needs inclusion in the public debate and in victimology/cyberinsurance research; open questions include true prevalence beyond police reports and effectiveness of interventions."
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "retained-included"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "PASS. Source: Scopus/Google Scholar-indexed journal. Year: 2025 print issue (online-first 2024), within 2022-2026 window. Quartile: Q1 by Scimago SJR (Law, SJR 2025 = 1.029). Topical fit: ransom payment decision factors in the victim-side/economic pillar of the review."
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "PASS. Source: Scopus-indexed journal (record confirmed). Year: published online November 2025, print issue 2026, within 2022-2026 window. Quartile: Q1 by Scimago SJR (Sociology and Political Science, 2025; SJR 0.609). Topical fit: victimology of a non-Windows platform (NAS), victim-side and economic pillar."
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Platform-agnostic: the study concerns SME organizational IT environments and victim decision context; no specific OS/device (Windows/Android/NAS etc.) is the unit of analysis"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "NAS (QNAP NAS appliances running QTS; embedded Linux-based network-attached storage devices), including non-NAS comparison cases"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Post-encryption (victim-facing response and ransom payment decision after data encrypted; maps to the impact/response side of T1486/T1489 rather than T1485/T1471)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Pre-encryption through post-encryption: police-reported incidents cover exploitation of NAS web exposure (pre-encryption), encryption/compression of files (during-encryption, T1471/T1486), and post-encryption payment, decryption and law-enforcement response"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Primary survey data: N = 445 Dutch SME owners/managers recruited through the I&O Research entrepreneurs' panel, with embedded factorial vignette design; no named public security benchmark; open data sharing not stated in the indexed record ([uncertain] whether the dataset is open-sourced)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Dutch police ransomware-attack register extract: 502 reported attacks (2019-2022), 104 NAS-targeted; supplemented by Censys internet-exposure tracking evidence referenced for DeadBolt; no open-sourced dataset identified in the indexed record ([uncertain] whether the dataset is open-sourced)"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Statistical effect metrics rather than security metrics: logistic/OLS regression coefficients and odds ratios for payment-decision factors (advice to pay, backup availability, ransom affordability), predicted payment likelihood; no F1/precision/recall or detection-latency metrics (survey-based social-science design)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Descriptive and comparative victimology metrics: proportion of NAS-targeted attacks (20.7% of 502), victim type split (individuals vs organisations), financial impact (ransom requested, ransom paid, financial loss) of NAS vs non-NAS attacks; no detection/ML metrics (criminological register study)"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Moderate: vignette design, panel recruitment and R-based analysis are described in the paper (analysis in R/stattricks tooling per reference list), supporting methodological replication; but individual survey micro-data are held by the research team and public release is not confirmed, limiting full reproduction ([uncertain] data availability)"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Low-to-moderate: analysis of a privileged police dataset that cannot be redistributed; strings/coding scheme and the October 2022 DeadBolt intervention (Chainalysis/Censys/BleepingComputer evidence) are traceable via open sources, but external researchers cannot re-run the exact register analysis; no external validation environment"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+      "value": "Not applicable: no RaaS group named, no leak-site evidence, no payment wallet/tracing coverage; the paper studies victim-side decisions rather than actor attribution"
+    },
+    {
+      "paper": "NAS ransomware: ransomware targeting NAS devices",
+      "value": "Partial coverage: names consumer-NAS ransomware strains/campaigns (DeadBolt, ech0raix, Qlocker targeting QNAP devices) rather than RaaS groups; documents the October 2022 law-enforcement action where the Dutch police tricked the DeadBolt actor into releasing decryption keys (bitcoin-trick key recovery supported by Chainalysis evidence); no leak-site or RaaS-affiliate attribution analysis"
+    }
+  ],
+  "uncertain": [
+    "dataset_benchmark (open-sourced status of both datasets)",
+    "reproducibility (public data-release confirmations)"
+  ]
+}

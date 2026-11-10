@@ -1,0 +1,32 @@
+fields:
+  bibliographic:
+    - {name: title, description: "Full paper title as published", detail_level: brief}
+    - {name: authors, description: "Author list (surname, initials)", detail_level: brief}
+    - {name: year, description: "Publication year (must be 2022-2026)", detail_level: brief}
+    - {name: journal, description: "Journal or conference name", detail_level: brief}
+    - {name: quartile_sjr, description: "Scimago SJR quartile at publication year", detail_level: moderate}
+    - {name: source_database, description: "Which of the six allowed databases the record came from", detail_level: brief}
+    - {name: doi_url, description: "DOI or stable URL", detail_level: brief}
+  content:
+    - {name: study_type, description: "Empirical experiment / system design / survey / SLR / case study / econometric study", detail_level: moderate}
+    - {name: methodology, description: "Technical approach: features, models, datasets, evaluation design", detail_level: detailed}
+    - {name: key_findings, description: "Main results, quantified where possible", detail_level: moderate}
+    - {name: limitations, description: "Acknowledged + observed limitations", detail_level: moderate}
+    - {name: research_gaps, description: "Gaps the paper identifies or addresses", detail_level: moderate}
+  prisma:
+    - {name: prisma_stage, description: "search-screening / eligibility / retained-included", detail_level: brief}
+    - {name: inclusion_rationale, description: "Why the record passed the 2022-2026 Q1/Q2 and source criteria (or why excluded)", detail_level: moderate}
+  stratification:
+    - {name: platform_environment, description: "Windows / Android / Linux / macOS / IIoT-SCADA / hypervisor-ESXi / cloud / NAS", detail_level: brief}
+    - {name: kill_chain_stage, description: "Pre-encryption / during-encryption / post-encryption (map to MITRE T1485/T1471)", detail_level: brief}
+    - {name: dataset_benchmark, description: "Named dataset(s) used and whether open-sourced", detail_level: moderate}
+    - {name: evaluation_metrics, description: "F1/precision/recall, detection latency, false-positive rate, MTTD/MTTC/RTO", detail_level: moderate}
+  reproducibility_risk:
+    - {name: reproducibility, description: "Baseline comparisons, real-environment vs sandbox testing, external evaluation", detail_level: moderate}
+  threat_intel:
+    - {name: threat_actor_fields, description: "RaaS group named, leak-site evidence, payment wallet/tracing coverage (only if applicable)", detail_level: moderate}
+
+uncertain:
+  - study_type
+  - quartile_sjr
+  - evaluation_metrics

@@ -1,0 +1,219 @@
+{
+  "topic": "Ransomware detection, prevention, and incident response - systematic literature review (PRISMA-style)",
+  "item": "F. Prevention and resilience engineering - backups/immutability, recovery modelling, access control, patching posture, MFA, game-theoretic defense modeling",
+  "search_date": "2026-10-21",
+  "title": [
+    {
+      "value": "Modelling and simulating organizational ransomware recovery: structure, methodology, and decisions",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Applying staged event-driven access control to combat ransomware",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "authors": [
+    {
+      "value": "Ilau, M.-C.; Baldwin, A.; Caulfield, T.; Pym, D.",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "McIntosh, T.; Kayes, A. S. M.; Chen, Y.-P. P.; Ng, A.; Watters, P.",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "year": [
+    {
+      "value": 2025,
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": 2023,
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "journal": [
+    {
+      "value": "Journal of Cybersecurity (Oxford University Press), open access",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Computers & Security, vol. 128, art. 103160, May 2023 (Elsevier)",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "value": "Q1 (Scimago SJR 2024 = 0.938, Q1 in Computer Networks and Communications, Computer Science Applications, Computer Science (miscellaneous), Information Systems, Software, Law, and further categories; SJR 2025 = 0.818; ISSN 2057-2093)",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Q1 (Scimago SJR 2023 = 1.566, SJR 2024 = 1.445, Computer Science (miscellaneous) and Law; ISSN 0167-4048)",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "source_database": [
+    {
+      "value": "Google Scholar (lead) / verified against Oxford Academic publisher page (record indexed in Scopus/ScienceDirect-family sources via Oxford)",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "ScienceDirect",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "doi_url": [
+    {
+      "value": "https://doi.org/10.1093/cybsec/tyaf035",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.cose.2023.103160",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "study_type": [
+    {
+      "value": "Simulation modelling study (compositional system-model construction with comparative simulation analysis)",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "System design with empirical prototype evaluation (access-control architecture + working OS-level prototype)",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "methodology": [
+    {
+      "value": "Semantically justified, mathematically compositional co-design system-modelling approach (process-algebra grounded): ransomware behaviour, organizational structure, IT infrastructure, and recovery options conceptualized from literature surveys and expert knowledge; model built as composition of four submodels (device, network, server, malware); compares endpoint device recovery mechanisms (including USB-stick OS-image recovery) over 9,000 parameter configurations totalling 450,000 iterations; results analysed in three organizationally relevant scenarios plus general-level sensitivity analysis",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Staged Event-Driven Access Control (SEDAC) architecture combining program-centric access control (PCAC) and user-centric access control (UCAC), chained as three stages: pre-UCAC PCAC (OS integrity, MBR Guard), UCAC (user consent/intention), post-UCAC PCAC (user file integrity, File Warden minifilter) plus a Firewall Liaisor for exfiltration blocking; updated ransomware threat model covering novel attack vectors (fileless PowerShell-script encryption, 7-Zip-based encryption, VM-folder-mapped encryption, intermittent 25% partial encryption, unsafe MBR writes, outbound exfiltration) with redefined false positives/negatives; Sedaco prototype implemented on Windows 10 and evaluated against WannaCry/LockFile/Petya-class samples and simulations, compared with bare Windows 10, Windows Defender, two unnamed antivirus products, and the authors' earlier Fitico and Ranacco designs",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "key_findings": [
+    {
+      "value": "Demonstrates that a compositional simulation model can quantify the organizational consequences of recovery-solution choices (recovery time, cost, and resilience trade-offs) before deployment; situates the decision problem in empirical context (prior work reports 21% of 55 studied ransomware attacks fully disrupted business continuity for 2+ weeks and 19% needed months to recover, if at all); sensitivity analysis reveals which parameters most influence time-to-recover, supporting policy/technology mix decisions",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "The Sedaco prototype intercepted more types of ransomware attack vectors than existing proposals: File Warden blocked all directly initiated file-encryption activities (user-level PCAC); MBR Guard blocked all unsafe MBR modifications (OS-level PCAC); indirect encryptions (PowerShell/Command Line, VM-mapped folders) triggered UCAC user-permission warnings; Firewall Liaisor blocked outbound exfiltration the antivirus network firewall missed; the unnamed antivirus failed intermittent 25% partial encryption, unsafe random MBR writes, PowerShell/7-Zip/VM-based encryption, and outbound exfiltration - evidencing application-whitelist-only anti-ransomware logic",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "limitations": [
+    {
+      "value": "Model is only partially generic and parametrized from literature/expert judgement rather than validated against real recovered organizations; focus is endpoint device recovery rather than enterprise-wide (cloud, hypervisor, supply-chain) recovery; outcome realism depends on fidelity of the conceptualized ransomware/organizational behaviour",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Prototype limited to Windows OS; UCAC inference of user intention/consent trades accuracy vs alarm fatigue, and human-presence heuristics can mis-fire; PCAC depends on software-industry cooperation on coding standards and file-type integrity enforcement that does not currently exist; explicit security-vs-usability dilemma for commercial adoption; user acceptance untested",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "research_gaps": [
+    {
+      "value": "Addresses the resilience-engineering gap: organizations lack evidence-based understanding of how backup/recovery mixes (technology + policy + employee factors) affect time-to-recover and cost; positions compositional modelling and sensitivity analysis as a decision-support instrument for ransomware resilience investment",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Fills the gap of OS-native prevention: existing anti-ransomware studies ignore novel vectors (fileless scripts, partial encryption, exfiltration, human-operated ransomware); advocates embedding SEDAC-style access control into OS/architecture design and calls for research on non-negotiable vs user-delegable access decisions and usability perception",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "prisma_stage": [
+    {
+      "value": "retained-included",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "retained-included",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "value": "Named candidate for item F (organizational ransomware recovery modelling). Published online 21 Nov 2025 (year 2025, within 2022-2026); open-access article in Journal of Cybersecurity (Scimago Q1, SJR 2024 = 0.938); verified via DOI 10.1093/cybsec/tyaf035 and Oxford Academic/Google Scholar records; no eligibility criterion failed.",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Named candidate for item F (staged event-driven access control vs ransomware). Computers & Security, vol. 128, art. 103160, May 2023, Scimago Q1 (SJR 2023 = 1.566); indexed in ScienceDirect/Scopus; directly in scope for prevention engineering; no eligibility criterion failed.",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "platform_environment": [
+    {
+      "value": "[uncertain] platform-agnostic generic organizational IT infrastructure model (endpoint devices, internal network, servers) - no single named platform",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Windows OS (Sedaco prototype augmented into Windows 10; kernel-mode file-system minifilter)",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "value": "Post-encryption (organizational recovery after the T1485 encryption impact; restores integrity/availability)",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Pre-encryption through during-encryption prevention (OS-integrity and MBR guard stages precede damage; file-system and exfiltration interception at the T1485/T1441-file-modification and data-theft stages)",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "value": "No external dataset; simulation over a synthetic parameter space (9,000 configurations, 450,000 iterations) grounded in literature-derived conceptualizations",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Evaluation corpus of ransomware-like executables and simulated attack scenarios (WannaCry, LockFile, Petya-class samples plus fileless/VM/exfiltration simulations); no public benchmark release identified - release status [uncertain]",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "value": "Time to recover (RTO-style recovery-time outcomes), recovery failure/success, and cost/loss outcomes across configurations; sensitivity-analysis rankings of parameter influence",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Attack-vector interception coverage (blocked/warned/pass outcomes per scenario), comparative results against baseline Windows 10, Windows Defender, two unnamed antivirus products, Fitico and Ranacco; false-positive/false-negative rates redefined for ransomware mitigation context (exact rates: [uncertain])",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "reproducibility": [
+    {
+      "value": "Mathematically specified modular model with co-design construction methodology described in detail; simulation model/source and artifact release: [uncertain]; parameter space fully documented in experiments",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Prototype architecture, module rules, and evaluation scenarios fully documented, but kernel-level Windows source code and test corpus are not publicly released (release not identified, third-party replication limited - [uncertain]); external evaluation by third parties absent",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "value": "Not applicable (no RaaS group named; references empirical incident context from prior studies, e.g., Connolly et al., without group attribution)",
+      "paper": "Ilau et al. 2025 (Journal of Cybersecurity)"
+    },
+    {
+      "value": "Not applicable (defensive perspective; test samples from named historical families WannaCry/Petya and the LockFile variant, without group-level intelligence or wallet tracing)",
+      "paper": "McIntosh et al. 2023 (Computers & Security)"
+    }
+  ],
+  "uncertain": [
+    "platform_environment",
+    "dataset_benchmark",
+    "evaluation_metrics",
+    "reproducibility"
+  ],
+  "excluded_records": [
+    {
+      "paper_ref": "Zhang et al. 2023",
+      "decision": "PRUNED",
+      "title": "Multistage Game Theoretical Approach for Ransomware Attack and Defense",
+      "reason": "Scope prune: formal game-theoretic modeling most tangential to the review's prevention-engineering focus; empirical/simulation (Ilau2025) and system-design (McIntosh2023/SEDAC) evidence retained"
+    }
+  ]
+}

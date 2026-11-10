@@ -1,0 +1,245 @@
+{
+  "total_dois": 33,
+  "verified": [],
+  "failed": [
+    "10.1109/esai62891.2024.10913856",
+    "10.1109/access.2024.3397921](https://doi.org/10.1109/access.2024.3397921)",
+    "10.1109/access.2025.3556187](https://doi.org/10.1109/access.2025.3556187)",
+    "10.1109/tcad.2021.3099084](https://doi.org/10.1109/tcad.2021.3099084)",
+    "10.3390/s24092679](https://doi.org/10.3390/s24092679)",
+    "10.3390/s24092679",
+    "10.1016/j.cose.2022.102860](https://doi.org/10.1016/j.cose.2022.102860)",
+    "10.1016/j.cose.2022.102860",
+    "10.1109/tnsm.2025.3574716](https://doi.org/10.1109/tnsm.2025.3574716)",
+    "10.1109/tnsm.2025.3574716`",
+    "10.1016/j.cose.2024.103703](https://doi.org/10.1016/j.cose.2024.103703)",
+    "10.1016/j.cose.2024.103842](https://doi.org/10.1016/j.cose.2024.103842)",
+    "10.1016/j.cose.2024.104077](https://doi.org/10.1016/j.cose.2024.104077)",
+    "10.1109/access.2023.3300381](https://doi.org/10.1109/access.2023.3300381)",
+    "10.1093/cybsec/tyaf035](https://doi.org/10.1093/cybsec/tyaf035)",
+    "10.1093/cybsec/tyaf035",
+    "10.1016/j.cose.2023.103160](https://doi.org/10.1016/j.cose.2023.103160)",
+    "10.1016/j.jnca.2023.103809",
+    "10.3390/fi15040144](https://doi.org/10.3390/fi15040144)",
+    "10.1145/3582489](https://doi.org/10.1145/3582489)",
+    "10.1016/j.cose.2023.103670](https://doi.org/10.1016/j.cose.2023.103670)",
+    "10.1016/j.cose.2025.104705](https://doi.org/10.1016/j.cose.2025.104705)",
+    "10.1109/msec.2021.3137018](https://doi.org/10.1109/msec.2021.3137018)",
+    "10.1016/j.cose.2023.103454](https://doi.org/10.1016/j.cose.2023.103454)",
+    "10.1177/14773708241285671](https://doi.org/10.1177/14773708241285671)",
+    "10.1080/17440572.2025.2591628](https://doi.org/10.1080/17440572.2025.2591628)",
+    "10.1257/pol.20240594",
+    "10.3886/e235483v1)](https://doi.org/10.1257/pol.20240594",
+    "10.3886/e235483v1",
+    "10.1001/jama.2024.7752](https://doi.org/10.1001/jama.2024.7752)",
+    "10.3390/info15080484](https://doi.org/10.3390/info15080484)",
+    "10.1145/3514229](https://doi.org/10.1145/3514229)",
+    "10.1145/3514229`"
+  ],
+  "metadata_unavailable": [],
+  "metadata": {},
+  "errors": {
+    "10.1109/esai62891.2024.10913856": {
+      "doi": "10.1109/esai62891.2024.10913856",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/esai62891.2024.10913856 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1109/access.2024.3397921](https://doi.org/10.1109/access.2024.3397921)": {
+      "doi": "10.1109/access.2024.3397921](https://doi.org/10.1109/access.2024.3397921)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/access.2024.3397921%5D%28https%3A//doi.org/10.1109/access.2024.3397921%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1109/access.2025.3556187](https://doi.org/10.1109/access.2025.3556187)": {
+      "doi": "10.1109/access.2025.3556187](https://doi.org/10.1109/access.2025.3556187)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/access.2025.3556187%5D%28https%3A//doi.org/10.1109/access.2025.3556187%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1109/tcad.2021.3099084](https://doi.org/10.1109/tcad.2021.3099084)": {
+      "doi": "10.1109/tcad.2021.3099084](https://doi.org/10.1109/tcad.2021.3099084)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/tcad.2021.3099084%5D%28https%3A//doi.org/10.1109/tcad.2021.3099084%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.3390/s24092679](https://doi.org/10.3390/s24092679)": {
+      "doi": "10.3390/s24092679](https://doi.org/10.3390/s24092679)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.3390/s24092679%5D%28https%3A//doi.org/10.3390/s24092679%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.3390/s24092679": {
+      "doi": "10.3390/s24092679",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.3390/s24092679 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2022.102860](https://doi.org/10.1016/j.cose.2022.102860)": {
+      "doi": "10.1016/j.cose.2022.102860](https://doi.org/10.1016/j.cose.2022.102860)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2022.102860%5D%28https%3A//doi.org/10.1016/j.cose.2022.102860%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2022.102860": {
+      "doi": "10.1016/j.cose.2022.102860",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2022.102860 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1109/tnsm.2025.3574716](https://doi.org/10.1109/tnsm.2025.3574716)": {
+      "doi": "10.1109/tnsm.2025.3574716](https://doi.org/10.1109/tnsm.2025.3574716)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/tnsm.2025.3574716%5D%28https%3A//doi.org/10.1109/tnsm.2025.3574716%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1109/tnsm.2025.3574716`": {
+      "doi": "10.1109/tnsm.2025.3574716`",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/tnsm.2025.3574716%60 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2024.103703](https://doi.org/10.1016/j.cose.2024.103703)": {
+      "doi": "10.1016/j.cose.2024.103703](https://doi.org/10.1016/j.cose.2024.103703)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2024.103703%5D%28https%3A//doi.org/10.1016/j.cose.2024.103703%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2024.103842](https://doi.org/10.1016/j.cose.2024.103842)": {
+      "doi": "10.1016/j.cose.2024.103842](https://doi.org/10.1016/j.cose.2024.103842)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2024.103842%5D%28https%3A//doi.org/10.1016/j.cose.2024.103842%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2024.104077](https://doi.org/10.1016/j.cose.2024.104077)": {
+      "doi": "10.1016/j.cose.2024.104077](https://doi.org/10.1016/j.cose.2024.104077)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2024.104077%5D%28https%3A//doi.org/10.1016/j.cose.2024.104077%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1109/access.2023.3300381](https://doi.org/10.1109/access.2023.3300381)": {
+      "doi": "10.1109/access.2023.3300381](https://doi.org/10.1109/access.2023.3300381)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/access.2023.3300381%5D%28https%3A//doi.org/10.1109/access.2023.3300381%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1093/cybsec/tyaf035](https://doi.org/10.1093/cybsec/tyaf035)": {
+      "doi": "10.1093/cybsec/tyaf035](https://doi.org/10.1093/cybsec/tyaf035)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1093/cybsec/tyaf035%5D%28https%3A//doi.org/10.1093/cybsec/tyaf035%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1093/cybsec/tyaf035": {
+      "doi": "10.1093/cybsec/tyaf035",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1093/cybsec/tyaf035 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2023.103160](https://doi.org/10.1016/j.cose.2023.103160)": {
+      "doi": "10.1016/j.cose.2023.103160](https://doi.org/10.1016/j.cose.2023.103160)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2023.103160%5D%28https%3A//doi.org/10.1016/j.cose.2023.103160%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.jnca.2023.103809": {
+      "doi": "10.1016/j.jnca.2023.103809",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.jnca.2023.103809 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.3390/fi15040144](https://doi.org/10.3390/fi15040144)": {
+      "doi": "10.3390/fi15040144](https://doi.org/10.3390/fi15040144)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.3390/fi15040144%5D%28https%3A//doi.org/10.3390/fi15040144%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1145/3582489](https://doi.org/10.1145/3582489)": {
+      "doi": "10.1145/3582489](https://doi.org/10.1145/3582489)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1145/3582489%5D%28https%3A//doi.org/10.1145/3582489%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2023.103670](https://doi.org/10.1016/j.cose.2023.103670)": {
+      "doi": "10.1016/j.cose.2023.103670](https://doi.org/10.1016/j.cose.2023.103670)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2023.103670%5D%28https%3A//doi.org/10.1016/j.cose.2023.103670%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2025.104705](https://doi.org/10.1016/j.cose.2025.104705)": {
+      "doi": "10.1016/j.cose.2025.104705](https://doi.org/10.1016/j.cose.2025.104705)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2025.104705%5D%28https%3A//doi.org/10.1016/j.cose.2025.104705%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1109/msec.2021.3137018](https://doi.org/10.1109/msec.2021.3137018)": {
+      "doi": "10.1109/msec.2021.3137018](https://doi.org/10.1109/msec.2021.3137018)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1109/msec.2021.3137018%5D%28https%3A//doi.org/10.1109/msec.2021.3137018%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1016/j.cose.2023.103454](https://doi.org/10.1016/j.cose.2023.103454)": {
+      "doi": "10.1016/j.cose.2023.103454](https://doi.org/10.1016/j.cose.2023.103454)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1016/j.cose.2023.103454%5D%28https%3A//doi.org/10.1016/j.cose.2023.103454%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1177/14773708241285671](https://doi.org/10.1177/14773708241285671)": {
+      "doi": "10.1177/14773708241285671](https://doi.org/10.1177/14773708241285671)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1177/14773708241285671%5D%28https%3A//doi.org/10.1177/14773708241285671%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1080/17440572.2025.2591628](https://doi.org/10.1080/17440572.2025.2591628)": {
+      "doi": "10.1080/17440572.2025.2591628](https://doi.org/10.1080/17440572.2025.2591628)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1080/17440572.2025.2591628%5D%28https%3A//doi.org/10.1080/17440572.2025.2591628%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1257/pol.20240594": {
+      "doi": "10.1257/pol.20240594",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1257/pol.20240594 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.3886/e235483v1)](https://doi.org/10.1257/pol.20240594": {
+      "doi": "10.3886/e235483v1)](https://doi.org/10.1257/pol.20240594",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.3886/e235483v1%29%5D%28https%3A//doi.org/10.1257/pol.20240594 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.3886/e235483v1": {
+      "doi": "10.3886/e235483v1",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.3886/e235483v1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1001/jama.2024.7752](https://doi.org/10.1001/jama.2024.7752)": {
+      "doi": "10.1001/jama.2024.7752](https://doi.org/10.1001/jama.2024.7752)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1001/jama.2024.7752%5D%28https%3A//doi.org/10.1001/jama.2024.7752%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.3390/info15080484](https://doi.org/10.3390/info15080484)": {
+      "doi": "10.3390/info15080484](https://doi.org/10.3390/info15080484)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.3390/info15080484%5D%28https%3A//doi.org/10.3390/info15080484%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1145/3514229](https://doi.org/10.1145/3514229)": {
+      "doi": "10.1145/3514229](https://doi.org/10.1145/3514229)",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1145/3514229%5D%28https%3A//doi.org/10.1145/3514229%29 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    },
+    "10.1145/3514229`": {
+      "doi": "10.1145/3514229`",
+      "status": "inconclusive",
+      "error": "HTTPSConnectionPool(host='doi.org', port=443): Max retries exceeded with url: /api/handles/10.1145/3514229%60 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1006)')))"
+    }
+  },
+  "missing": [],
+  "inconclusive": [
+    "10.1109/esai62891.2024.10913856",
+    "10.1109/access.2024.3397921](https://doi.org/10.1109/access.2024.3397921)",
+    "10.1109/access.2025.3556187](https://doi.org/10.1109/access.2025.3556187)",
+    "10.1109/tcad.2021.3099084](https://doi.org/10.1109/tcad.2021.3099084)",
+    "10.3390/s24092679](https://doi.org/10.3390/s24092679)",
+    "10.3390/s24092679",
+    "10.1016/j.cose.2022.102860](https://doi.org/10.1016/j.cose.2022.102860)",
+    "10.1016/j.cose.2022.102860",
+    "10.1109/tnsm.2025.3574716](https://doi.org/10.1109/tnsm.2025.3574716)",
+    "10.1109/tnsm.2025.3574716`",
+    "10.1016/j.cose.2024.103703](https://doi.org/10.1016/j.cose.2024.103703)",
+    "10.1016/j.cose.2024.103842](https://doi.org/10.1016/j.cose.2024.103842)",
+    "10.1016/j.cose.2024.104077](https://doi.org/10.1016/j.cose.2024.104077)",
+    "10.1109/access.2023.3300381](https://doi.org/10.1109/access.2023.3300381)",
+    "10.1093/cybsec/tyaf035](https://doi.org/10.1093/cybsec/tyaf035)",
+    "10.1093/cybsec/tyaf035",
+    "10.1016/j.cose.2023.103160](https://doi.org/10.1016/j.cose.2023.103160)",
+    "10.1016/j.jnca.2023.103809",
+    "10.3390/fi15040144](https://doi.org/10.3390/fi15040144)",
+    "10.1145/3582489](https://doi.org/10.1145/3582489)",
+    "10.1016/j.cose.2023.103670](https://doi.org/10.1016/j.cose.2023.103670)",
+    "10.1016/j.cose.2025.104705](https://doi.org/10.1016/j.cose.2025.104705)",
+    "10.1109/msec.2021.3137018](https://doi.org/10.1109/msec.2021.3137018)",
+    "10.1016/j.cose.2023.103454](https://doi.org/10.1016/j.cose.2023.103454)",
+    "10.1177/14773708241285671](https://doi.org/10.1177/14773708241285671)",
+    "10.1080/17440572.2025.2591628](https://doi.org/10.1080/17440572.2025.2591628)",
+    "10.1257/pol.20240594",
+    "10.3886/e235483v1)](https://doi.org/10.1257/pol.20240594",
+    "10.3886/e235483v1",
+    "10.1001/jama.2024.7752](https://doi.org/10.1001/jama.2024.7752)",
+    "10.3390/info15080484](https://doi.org/10.3390/info15080484)",
+    "10.1145/3514229](https://doi.org/10.1145/3514229)",
+    "10.1145/3514229`"
+  ],
+  "verification_scope": "DOI registration and Crossref metadata, not claim support or retraction screening"
+}

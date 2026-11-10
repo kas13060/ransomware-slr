@@ -1,0 +1,206 @@
+{
+  "title": [
+    {
+      "paper": 1,
+      "value": "Securing the Industrial Internet of Things against ransomware attacks: A comprehensive analysis of the emerging threat landscape and detection mechanisms"
+    },
+    {
+      "paper": 2,
+      "value": "Opportunities for Early Detection and Prediction of Ransomware Attacks against Industrial Control Systems"
+    }
+  ],
+  "authors": [
+    {
+      "paper": 1,
+      "value": "Al-Hawawreh, M.; Alazab, M.; Ferrag, M. A.; Hossain, M. S."
+    },
+    {
+      "paper": 2,
+      "value": "Gazzan, M.; Sheldon, F. T."
+    }
+  ],
+  "year": [
+    {
+      "paper": 1,
+      "value": 2024
+    },
+    {
+      "paper": 2,
+      "value": 2023
+    }
+  ],
+  "journal": [
+    {
+      "paper": 1,
+      "value": "Journal of Network and Computer Applications (Elsevier), vol. 223, article 103809"
+    },
+    {
+      "paper": 2,
+      "value": "Future Internet (MDPI), vol. 15, issue 4, article 144"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper": 1,
+      "value": "Q1 (SJR 2023 = 2.417; Q1 in Computer Networks and Communications, Computer Science Applications, and Hardware and Architecture per SCImago)"
+    },
+    {
+      "paper": 2,
+      "value": "Q2 (SJR 2023 = 0.808; Q2 in Computer Networks and Communications per SCImago; Q1 only in the 2025 ranking)"
+    }
+  ],
+  "source_database": [
+    {
+      "paper": 1,
+      "value": "ScienceDirect (Elsevier); also indexed in Scopus (AN: SCOPUS:85181092350)"
+    },
+    {
+      "paper": 2,
+      "value": "MDPI/Scopus-indexed journal record verified via DOI landing page and Google Scholar/Scopus metadata"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper": 1,
+      "value": "https://doi.org/10.1016/j.jnca.2023.103809 (ScienceDirect PII: S108480452300228X)"
+    },
+    {
+      "paper": 2,
+      "value": "https://doi.org/10.3390/fi15040144"
+    }
+  ],
+  "study_type": [
+    {
+      "paper": 1,
+      "value": "Survey / comprehensive narrative review article (peer-reviewed review article, per Charles Darwin University publication record)"
+    },
+    {
+      "paper": 2,
+      "value": "Review paper explicitly framed by its authors as a non-systematic literature review focused on ransomware prediction-related literature"
+    }
+  ],
+  "methodology": [
+    {
+      "paper": 1,
+      "value": "Comprehensive thematic review: analyzes IIoT system evolution and common architecture, ransomware evolution/types (mass-distribution vs targeted), attack stages, extortion strategies (single vs multiple extortion, malware and non-malware tactics, employment of non-ransomware malware and on-premises, cloud and mail services as platforms), affected operating systems (Windows, Linux, Android, iOS and others), industry verticals and threat-incident patterns, analysis techniques/areas, and detection research organized into entropy-based, honeypot-based, anti-virus-based, and AI-based methods, assessed specifically for applicability to IIoT systems"
+    },
+    {
+      "paper": 2,
+      "value": "Authors state they conducted a non-systematic literature review limited to articles specifically addressing ransomware prediction for ICS/SCADA; reviews SCADA architecture, vulnerabilities, attacks, intruspoon-detection techniques and testbeds, tabulates ransomware prediction studies (methods, tools, limitations, e.g., GAN-based generation of future malware variants), and discusses situation-awareness-based attack-likelihood prediction"
+    }
+  ],
+  "key_findings": [
+    {
+      "paper": 1,
+      "value": "Sophisticated ransomware will likely target heterogeneous, legacy-connected IIoT systems; detection methods validated on IT platforms (entropy, honeypots, anti-virus, AI) have uncertain applicability to IIoT; existing studies do not yet cover new IIoT devices/CPS platforms (authors state they have not yet encountered ransomware incidents against new IIoT devices/CPS); concludes that offensive and defensive IIoT ransomware research is urgently needed and should become a research priority"
+    },
+    {
+      "paper": 2,
+      "value": "ICS/SCADA characteristics (outdated proprietary software, limited visibility, legacy infrastructure, remote-access needs) make ransomware prediction difficult; ransomware attacks on ICS are growing and pose a significant challenge to predictive prohibition; reviewed prediction literature is thin - approaches such as GAN-based prediction lack sufficient training data and cannot predict future malware behavior; risk assessment shows budget constraints often yield inadequate isolation and heightened exposure to threats; the rise of ransomware targeting SCADA ICS is likely to continue; calls for a multi-disciplinary approach with close cybersecurity-ICS collaboration"
+    }
+  ],
+  "limitations": [
+    {
+      "paper": 1,
+      "value": "Narrative review without systematic PRISMA-style protocol or reported search/screening counts; no empirical evaluation of the surveyed detection methods on IIoT testbeds or real deployments; no quantitative meta-analysis of detection effectiveness; as acknowledged, no real-world ransomware incidents against modern IIoT devices/CPS existed at writing time, so platform-specific conclusions are largely extrapolated"
+    },
+    {
+      "paper": 2,
+      "value": "Explicit self-described non-systematic review with a deliberately narrowed article set; non-empirical research synthesis with no new data, model or testbed; prediction-oriented evidence base is sparse (the paper itself notes large gaps); limited discussion of detection-only techniques for ICS beyond prediction framing"
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper": 1,
+      "value": "Addresses the gap that no prior study comprehensively analyzed new ransomware tactics/techniques and detection research for IIoT; identifies open issues requiring further research: lack of validated IIoT-specific detection models, absence of IIoT-targeted datasets/benchmarking, and the need for offensive research (exploit simulation) to develop effective IIoT defenses and countermeasures"
+    },
+    {
+      "paper": 2,
+      "value": "Identifies the specific gap that prior surveys covered only ransomware detection/prevention, not early prediction of attack likelihood against ICS; enumerates future research opportunities: threat-intelligence-enabled ransomware prediction in ICS, expanding the narrow prediction literature, and shared cybersecurity/ICS situational-awareness research"
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper": 1,
+      "value": "retained-included"
+    },
+    {
+      "paper": 2,
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper": 1,
+      "value": "Passes eligibility: published 2024 (within 2022-2026), journal at SJR Q1 in 2023-2024 rankings, indexed in Scopus and hosted on ScienceDirect (one of the six allowed source databases); directly fits Item G as the designated candidate paper for OT/IIoT platform ransomware protection and platform-dependent detection applicability"
+    },
+    {
+      "paper": 2,
+      "value": "Passes eligibility: published 2023 (within 2022-2026) in Future Internet, which held SJR Q2 in 2023 (verified on SCImago quartile table; Q1 only in 2025), an allowed source; retained as the designated ICS ransomware early-detection candidate paper for Item G despite being Q2 (Q1/Q2 threshold met); do not upgrade its quartile claim - it is Q2 at publication year"
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper": 1,
+      "value": "IIoT-SCADA (IIoT edge systems, IT/OT convergence, CPS); covers ransomware across Windows, Linux, Android, iOS and cross-platform variants as part of the reviewed landscape"
+    },
+    {
+      "paper": 2,
+      "value": "IIoT-SCADA (industrial control systems and SCADA, including power plants and water treatment facilities)"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper": 1,
+      "value": "Pre-encryption through post-encryption (full kill-chain landscape: tactics, stages, extortion - MITRE T1485 Data Encrypted for Impact context); detection research emphasis is on detecting at/before encryption onset"
+    },
+    {
+      "paper": 2,
+      "value": "Pre-encryption (early detection and attack-likelihood prediction, aiming to act before data encryption, MITRE T1471/T1485 prevention context)"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper": 1,
+      "value": "No experimental benchmark of its own; review synthesizes existing detection research (entropy, honeypot, anti-virus, AI-based); no named open dataset introduced"
+    },
+    {
+      "paper": 2,
+      "value": "No dataset built or benchmarked; reviews prediction studies and their tools (e.g., GAN experiments) rather than evaluating datasets; no open-source artifact introduced"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper": 1,
+      "value": "[uncertain]"
+    },
+    {
+      "paper": 2,
+      "value": "[uncertain]"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper": 1,
+      "value": "Low reproducibility relevance: qualitative review with no baseline comparisons, experiments, or test environments; conclusions depend on the (unreported) search strategy; useful as scoping/background source rather than a reproducible benchmark"
+    },
+    {
+      "paper": 2,
+      "value": "Low reproducibility: narrative synthesis without a systematic search protocol; reviewed studies summarized in tables but none re-evaluated in a controlled environment; no sandbox/real-environment testing reported"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper": 1,
+      "value": "[uncertain]"
+    },
+    {
+      "paper": 2,
+      "value": "[uncertain]"
+    }
+  ],
+  "uncertain": [
+    "evaluation_metrics",
+    "threat_actor_fields"
+  ]
+}

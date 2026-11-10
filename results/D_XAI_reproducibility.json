@@ -1,0 +1,220 @@
+{
+  "topic": "Ransomware detection, prevention, and incident response - systematic literature review (PRISMA-style)",
+  "item": "D. Explainability, reproducibility and benchmark validity - XAI (LIME/SHAP), replicability systematizations, dataset limitations",
+  "search_date": "2026-10-21",
+  "title": [
+    {
+      "value": "XRan: Explainable deep learning-based ransomware detection using dynamic analysis",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Explainability in AI-based behavioral malware detection systems",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "authors": [
+    {
+      "value": "Gulmez, S.; Gorgulu Kakisim, A.; Sogukpinar, I.",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Galli, A.; La Gatta, V.; Moscato, V.; Postiglione, M.; Sperli, G.",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "year": [
+    {
+      "value": 2024,
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": 2024,
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "journal": [
+    {
+      "value": "Computers & Security, vol. 139, art. 103703 (Elsevier)",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Computers & Security, vol. 141, art. 103842 (Elsevier, open access)",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "value": "Q1 (Scimago SJR 2024 = 1.445; Computer Science (miscellaneous) and Law; ISSN 0167-4048)",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Q1 (Scimago SJR 2024 = 1.445; Computer Science (miscellaneous) and Law; ISSN 0167-4048)",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "source_database": [
+    {
+      "value": "ScienceDirect",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "ScienceDirect",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "doi_url": [
+    {
+      "value": "https://doi.org/10.1016/j.cose.2024.103703",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.cose.2024.103842",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "study_type": [
+    {
+      "value": "Empirical experiment with XAI-enabled detection system design",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Empirical experiment (comparative XAI evaluation study)",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "methodology": [
+    {
+      "value": "Dynamic analysis in Cuckoo Sandbox extracting API-call sequences, DLL sequences, and mutex (mutual-exclusion) sequences combined into a multi-view feature space; two-layer CNN classifier; LIME (local) and SHAP (global) explanations of detection outcomes; five datasets: RD1 (VirusShare, 6,263 ransomware), RD2 (Sorel-20M, 7,703 ransomware), RD3 (ISOT, 668 ransomware), MD (VX Heaven, 6,263 malware), BD (Windows system files + Download.com, 14,797 benign)",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "XAI framework for API-call-sequence behavioral malware detection; evaluates four XAI methods (SHAP, LIME, LRP, and Attention mechanism) as explanatory layers for recurrent deep detectors (LSTM and GRU) across three API-call benchmark datasets differing in size, sequence length, and number of classes; compares effectiveness and efficiency of each XAI method per configuration",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "key_findings": [
+    {
+      "value": "XRan attains up to 99.4% True Positive Rate and outperforms baseline and state-of-the-art ransomware detectors; combining API/DLL/mutex sequence views preserves sequence relationships that frequency-domain-only features lose; LIME and SHAP consistently identify the dynamic features driving ransomware classification, giving analysts insight into the detection rationale",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Each of SHAP, LIME, LRP, and Attention exhibits distinct effectiveness/efficiency trade-offs that vary with dataset size, sequence length, and class count; no single XAI method dominates across all behavioral malware detection formulations; embedding XAI makes AI-based behavioral detection more actionable for real-world SOC use, but black-box opacity remains an adoption barrier",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "limitations": [
+    {
+      "value": "Dynamic feature extraction incurs high runtime overhead; detection requires executing the binary in a Cuckoo sandbox, so fast or environment-sensitive ransomware activity may complete before capture; evaluation is Windows-centric; sandbox-based dynamic analysis is itself detectable and evadable by sophisticated families",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Scope is generic malware rather than ransomware-specific; the datasets are proprietary and the authors state they do not have permission to share data, which blocks third-party replication and typifies the dataset-limitation problem this review item targets; explanation quality is sensitive to dataset characteristics",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "research_gaps": [
+    {
+      "value": "Addresses the explainability gap of black-box detectors for security analysts; notes that feature-extraction overhead and sandbox dependence remain unresolved for production deployment, and that XAI-guided insight into ransomware behavior (beyond accuracy) is an emerging requirement",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Identifies the gap of choosing among XAI methods for security pipelines: no uniform guidance on which explanation method suits which data profile; future work on explanation faithfulness/fidelity validation and on larger, shareable datasets to support XAI evaluation at scale",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "prisma_stage": [
+    {
+      "value": "retained-included",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "retained-included",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "value": "2024 publication in Computers & Security (SJR 2024 = 1.445, Q1) indexed in ScienceDirect and Scopus; squarely in scope as an XAI (LIME/SHAP) ransomware detection study; no eligibility criterion failed.",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "2024 publication in Computers & Security (SJR 2024 = 1.445, Q1) indexed in ScienceDirect and Scopus; in scope for item D as a rigorous XAI-method comparison (SHAP/LIME/LRP/Attention) that directly informs explainability and dataset-limitation analysis of behavioral detection; noted scope deviation: generic malware focus rather than ransomware-only.",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "platform_environment": [
+    {
+      "value": "Windows (PE executables; benign set built from Windows system files)",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "[uncertain] the API-call behavioral benchmarks suggest Windows-hosted execution, but the paper does not state a single platform explicitly",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "value": "During-encryption (behavioral detection at the onset of T1485 file-modification behavior to stop encryption in progress)",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Pre-encryption (host-level classification of malicious binaries at execution time, before data impact; not ransomware-stage-specific)",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "value": "Compiled RD1 (VirusShare, 6,263 ransomware), RD2 (Sorel-20M, 7,703 ransomware), RD3 (ISOT, 668 ransomware), MD (VX Heaven malware, 6,263), BD (Windows system files + Download.com benign, 14,797); open-source release status of the compiled datasets: [uncertain]",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Three API-call sequence datasets differing in size, sequence length, and number of classes; explicitly NOT shared (ScienceDirect data-availability statement: 'the authors do not have permission to share data')",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "value": "Accuracy, True Positive Rate, False Positive Rate, F-score; headline result up to 99.4% TPR",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Effectiveness and efficiency of four XAI methods (SHAP, LIME, LRP, Attention) per dataset/architecture; exact F1/accuracy values: [uncertain]",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "reproducibility": [
+    {
+      "value": "Benchmarked against multiple baseline and state-of-the-art detection methods; evaluation in a controlled Cuckoo sandbox rather than real infected-host environments; no external third-party evaluation; code and dataset publication: [uncertain]",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Open-access (CC license) and methodologically detailed, but datasets are proprietary and not shared, so full third-party replication of the pipeline is not currently possible; compares model variants internally rather than against real-environment deployments",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "value": "Not applicable (no RaaS group attribution, leak-site evidence, or wallet tracing content)",
+      "paper": "Gulmez et al. 2024 (XRan)"
+    },
+    {
+      "value": "Not applicable (no RaaS group attribution, leak-site evidence, or wallet tracing content)",
+      "paper": "Galli et al. 2024"
+    }
+  ],
+  "uncertain": [
+    "quartile_sjr",
+    "platform_environment",
+    "dataset_benchmark",
+    "evaluation_metrics",
+    "reproducibility"
+  ],
+  "excluded_records": [
+    {
+      "paper_ref": "Pereira et al. 2026",
+      "decision": "PRUNED",
+      "title": "It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection",
+      "reason": "Eligibility prune: IEEE EuroS&PW workshop proceedings carry no Scimago SJR quartile; fails strict Q1/Q2 journal criterion"
+    }
+  ]
+}

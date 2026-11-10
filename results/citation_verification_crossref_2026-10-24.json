@@ -1,0 +1,232 @@
+[
+ {
+  "doi": "10.1109/ACCESS.2024.3397921",
+  "status": "REGISTERED",
+  "title": "Ransomware Detection Using Machine Learning: A Review, Research Limitations and Future Directions",
+  "journal": "IEEE Access",
+  "year": 2024,
+  "expected_contains": "Ransomware Detection Using Machine Learning",
+  "title_match": true
+ },
+ {
+  "doi": "10.1109/ACCESS.2025.3556187",
+  "status": "REGISTERED",
+  "title": "A Survey of Ransomware Detection Methods",
+  "journal": "IEEE Access",
+  "year": 2025,
+  "expected_contains": "A Survey of Ransomware Detection Methods",
+  "title_match": true
+ },
+ {
+  "doi": "10.1109/TCAD.2021.3099084",
+  "status": "REGISTERED",
+  "title": "A Content-Based Ransomware Detection and Backup Solid-State Drive for Ransomware Defense",
+  "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+  "year": 2022,
+  "expected_contains": "A Content-Based Ransomware Detection and Backup Solid-State Drive",
+  "title_match": true
+ },
+ {
+  "doi": "10.3390/s24092679",
+  "status": "REGISTERED",
+  "title": "Lightweight Crypto-Ransomware Detection in Android Based on Reactive Honeyfile Monitoring",
+  "journal": "Sensors",
+  "year": 2024,
+  "expected_contains": "Lightweight Crypto-Ransomware Detection in Android",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2022.102860",
+  "status": "REGISTERED",
+  "title": "MFMCNS: a multi-feature and multi-classifier network-based system for ransomworm detection",
+  "journal": "Computers &amp; Security",
+  "year": 2022,
+  "expected_contains": "MFMCNS",
+  "title_match": true
+ },
+ {
+  "doi": "10.1109/TNSM.2025.3574716",
+  "status": "REGISTERED",
+  "title": "HFL-RD: Heterogeneous Federated Learning-Empowered Ransomware Detection via APIs and Traffic Features",
+  "journal": "IEEE Transactions on Network and Service Management",
+  "year": 2025,
+  "expected_contains": "HFL-RD",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2024.103703",
+  "status": "REGISTERED",
+  "title": "XRan: Explainable deep learning-based ransomware detection using dynamic analysis",
+  "journal": "Computers &amp; Security",
+  "year": 2024,
+  "expected_contains": "XRan",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2024.103842",
+  "status": "REGISTERED",
+  "title": "Explainability in AI-based behavioral malware detection systems",
+  "journal": "Computers &amp; Security",
+  "year": 2024,
+  "expected_contains": "Explainability in AI-based behavioral malware detection",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2024.104077",
+  "status": "REGISTERED",
+  "title": "Unleashing offensive artificial intelligence: Automated attack technique code generation",
+  "journal": "Computers &amp; Security",
+  "year": 2024,
+  "expected_contains": "Unleashing offensive artificial intelligence",
+  "title_match": true
+ },
+ {
+  "doi": "10.1109/ACCESS.2023.3300381",
+  "status": "REGISTERED",
+  "title": "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
+  "journal": "IEEE Access",
+  "year": 2023,
+  "expected_contains": "From ChatGPT to ThreatGPT",
+  "title_match": true
+ },
+ {
+  "doi": "10.1093/cybsec/tyaf035",
+  "status": "REGISTERED",
+  "title": "Modelling and simulating organizational ransomware recovery: structure, methodology, and decisions",
+  "journal": "Journal of Cybersecurity",
+  "year": 2025,
+  "expected_contains": "Modelling and simulating organizational ransomware recovery",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2023.103160",
+  "status": "REGISTERED",
+  "title": "Applying staged event-driven access control to combat ransomware",
+  "journal": "Computers &amp; Security",
+  "year": 2023,
+  "expected_contains": "Applying staged event-driven access control",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.jnca.2023.103809",
+  "status": "REGISTERED",
+  "title": "Securing the Industrial Internet of Things against ransomware attacks: A comprehensive analysis of the emerging threat landscape and detection mechanisms",
+  "journal": "Journal of Network and Computer Applications",
+  "year": 2024,
+  "expected_contains": "Securing the Industrial Internet of Things against ransomware",
+  "title_match": true
+ },
+ {
+  "doi": "10.3390/fi15040144",
+  "status": "REGISTERED",
+  "title": "Opportunities for Early Detection and Prediction of Ransomware Attacks against Industrial Control Systems",
+  "journal": "Future Internet",
+  "year": 2023,
+  "expected_contains": "Opportunities for Early Detection and Prediction of Ransomware Attacks",
+  "title_match": true
+ },
+ {
+  "doi": "10.1145/3582489",
+  "status": "REGISTERED",
+  "title": "A Tale of Two Markets: Investigating the Ransomware Payments Economy",
+  "journal": "Communications of the ACM",
+  "year": 2023,
+  "expected_contains": "A Tale of Two Markets",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2023.103670",
+  "status": "REGISTERED",
+  "title": "Deception in double extortion ransomware attacks: An analysis of profitability and credibility",
+  "journal": "Computers &amp; Security",
+  "year": 2024,
+  "expected_contains": "Deception in double extortion ransomware attacks",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2025.104705",
+  "status": "REGISTERED",
+  "title": "Inside ransomware groups: An analysis of their origins, structures, and dynamics",
+  "journal": "Computers &amp; Security",
+  "year": 2026,
+  "expected_contains": "Inside ransomware groups",
+  "title_match": true
+ },
+ {
+  "doi": "10.1109/MSEC.2021.3137018",
+  "status": "REGISTERED",
+  "title": "Wake Up Digital Forensics\u2019 Community and Help Combat Ransomware",
+  "journal": "IEEE Security &amp; Privacy",
+  "year": 2022,
+  "expected_contains": "Wake Up Digital Forensics",
+  "title_match": true
+ },
+ {
+  "doi": "10.1016/j.cose.2023.103454",
+  "status": "REGISTERED",
+  "title": "Operations-informed incident response playbooks",
+  "journal": "Computers &amp; Security",
+  "year": 2023,
+  "expected_contains": "Operations-informed incident response playbooks",
+  "title_match": true
+ },
+ {
+  "doi": "10.1177/14773708241285671",
+  "status": "REGISTERED",
+  "title": "Examining ransomware payment decision-making among small- and medium-sized enterprises",
+  "journal": "European Journal of Criminology",
+  "year": 2024,
+  "expected_contains": "Examining ransomware payment decision-making",
+  "title_match": true
+ },
+ {
+  "doi": "10.1080/17440572.2025.2591628",
+  "status": "REGISTERED",
+  "title": "NAS ransomware: ransomware targeting NAS devices",
+  "journal": "Global Crime",
+  "year": 2025,
+  "expected_contains": "NAS ransomware",
+  "title_match": true
+ },
+ {
+  "doi": "10.1257/pol.20240594",
+  "status": "REGISTERED",
+  "title": "Hacked to Pieces? The Effects of Ransomware Attacks on Hospitals and Patients",
+  "journal": "American Economic Journal: Economic Policy",
+  "year": 2026,
+  "expected_contains": "Hacked to Pieces",
+  "title_match": true
+ },
+ {
+  "doi": "10.1001/jama.2024.7752",
+  "status": "REGISTERED",
+  "title": "Ransomware Attacks, ED Visits and Inpatient Admissions in Targeted and Nearby Hospitals",
+  "journal": "JAMA",
+  "year": 2024,
+  "expected_contains": "Ransomware Attacks, ED Visits and Inpatient Admissions",
+  "title_match": true
+ },
+ {
+  "doi": "10.3390/info15080484",
+  "status": "REGISTERED",
+  "title": "Earlier Decision on Detection of Ransomware Identification: A Comprehensive Systematic Literature Review",
+  "journal": "Information",
+  "year": 2024,
+  "expected_contains": "Earlier Decision on Detection of Ransomware Identification",
+  "title_match": true
+ },
+ {
+  "doi": "10.1145/3514229",
+  "status": "REGISTERED",
+  "title": "A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions",
+  "journal": "ACM Computing Surveys",
+  "year": 2022,
+  "expected_contains": "A Survey on Ransomware",
+  "title_match": true
+ },
+ {
+  "doi": "10.3886/E235483V1",
+  "status": "UNRESOLVED",
+  "code": 404
+ }
+]

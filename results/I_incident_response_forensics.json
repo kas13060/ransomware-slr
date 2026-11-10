@@ -1,0 +1,221 @@
+{
+  "title": [
+    {
+      "paper": 2,
+      "value": "Wake Up Digital Forensics' Community and Help Combat Ransomware"
+    },
+    {
+      "paper": 3,
+      "value": "Operations-informed incident response playbooks"
+    }
+  ],
+  "authors": [
+    {
+      "paper": 2,
+      "value": "Huck, J.; Breitinger, F."
+    },
+    {
+      "paper": 3,
+      "value": "Shaked, A.; Cherdantseva, Y.; Burnap, P.; Maynard, P."
+    }
+  ],
+  "year": [
+    {
+      "paper": 2,
+      "value": 2022
+    },
+    {
+      "paper": 3,
+      "value": 2023
+    }
+  ],
+  "journal": [
+    {
+      "paper": 2,
+      "value": "IEEE Security & Privacy, vol. 20, issue 4, pp. 61-70 (Jul.-Aug. 2022)"
+    },
+    {
+      "paper": 3,
+      "value": "Computers & Security (Elsevier), vol. 134, article 103454"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper": 2,
+      "value": "Q1 (best quartile in Law per SCImago 2022, SJR 2022 = 0.684) - venue met the Q1/Q2 eligibility threshold at publication year"
+    },
+    {
+      "paper": 3,
+      "value": "Q1 (SCImago 2023: Q1 in Computer Science (miscellaneous) and Law)"
+    }
+  ],
+  "source_database": [
+    {
+      "paper": 2,
+      "value": "IEEE Xplore; verified via IEEE Computer Society Digital Library metadata"
+    },
+    {
+      "paper": 3,
+      "value": "ScienceDirect (Elsevier); also indexed in Scopus"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper": 2,
+      "value": "https://doi.org/10.1109/MSEC.2021.3137018"
+    },
+    {
+      "paper": 3,
+      "value": "https://doi.org/10.1016/j.cose.2023.103454"
+    }
+  ],
+  "study_type": [
+    {
+      "paper": 2,
+      "value": "Position/best-practice article on procedural countermeasures and digital forensics for ransomware (grounded in comparative case analysis of companies' ransomware strategies)"
+    },
+    {
+      "paper": 3,
+      "value": "Conceptual contribution / system design with case-study evaluation (novel playbook mechanism plus open-source tool demonstration)"
+    }
+  ],
+  "methodology": [
+    {
+      "paper": 2,
+      "value": "Argumentative best-practice synthesis supported by a comparative analysis of implemented ransomware strategies of companies (extended Rhine valley region, first author's related thesis work); examines technical vs procedural countermeasures and the role of digital forensics in ransomware investigation and preparation; makes recommendations for sharing detailed incident case studies"
+    },
+    {
+      "paper": 3,
+      "value": "Identifies the conceptual gap that current playbook research/practice represent playbooks as process models that cannot communicate operational impact of an incident or of the response; proposes operations-informed playbooks by embedding a model of operations (dependency map) into the playbook's process model and linking IR activities with operational context; introduces a new metric for evaluating change in operations in coordination with critical thresholds for IR decision-making; demonstrates the approach via a ransomware attack IR playbook case study using a newly developed open-source tool"
+    }
+  ],
+  "key_findings": [
+    {
+      "paper": 2,
+      "value": "Organizations, literature, and research efforts focus on technical measures and neglect procedural countermeasures against ransomware; detailed case studies and shared best practices are needed so companies can adapt strategies and be better prepared; the digital forensics community has an underused role in combating ransomware"
+    },
+    {
+      "paper": 3,
+      "value": "Playbook design currently lacks the ability to communicate operational impact of an incident and of incident response on the organization; embedding an operations model into playbooks reflects interdependencies and mutual influences of IR activities and operations in an accurate, systematic way; a new operations-change metric with critical thresholds supports decision-making during ransomware response; demonstrated in a ransomware IR case study using an open-source tool"
+    }
+  ],
+  "limitations": [
+    {
+      "paper": 2,
+      "value": "Position-style article with claims grounded in a regional (extended Rhine valley) comparative analysis of limited scope; no systematic evaluation of countermeasure effectiveness; recommendations are qualitative and practitioner-oriented"
+    },
+    {
+      "paper": 3,
+      "value": "Conceptual approach demonstrated in a single ransomware case study; no enterprise field deployment or multi-organization evaluation; adoption effort/costs of modeling operations itself are acknowledged as a practical consideration"
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper": 2,
+      "value": "Identifies the neglect of procedural countermeasures and of digital-forensic readiness in the ransomware defense literature; highlights the absence of shared, detailed incident case studies and best practices that organizations can adopt"
+    },
+    {
+      "paper": 3,
+      "value": "Identifies a significant conceptual gap in cybersecurity playbook design research and practice: inability to communicate operational impact of incidents and of incident response; proposes closing it via operations-informed playbooks that link process models to models of operations"
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper": 2,
+      "value": "retained-included"
+    },
+    {
+      "paper": 3,
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper": 2,
+      "value": "Passes eligibility: published July-August 2022 (2022-2026 window); IEEE Security & Privacy held SCImago Q1 (best quartile, Law) with SJR 0.684 in 2022; indexed on IEEE Xplore (allowed source); retained as the designated forensic-readiness candidate paper"
+    },
+    {
+      "paper": 3,
+      "value": "Passes eligibility: published November 2023 (2022-2026 window); Computers & Security at SCImago Q1 in 2023; hosted on ScienceDirect (allowed source); retained as the designated operations-informed playbook candidate paper"
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper": 2,
+      "value": "Windows/enterprise IT (organizational forensic readiness across company environments)"
+    },
+    {
+      "paper": 3,
+      "value": "Windows/enterprise IT with critical national infrastructure framing (operations dependency context; Colonial Pipeline-style fuel-supply impact scenario discussed)"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper": 2,
+      "value": "Pre-encryption (forensic readiness and procedural preparation) and post-encryption (forensic investigation after impact)"
+    },
+    {
+      "paper": 3,
+      "value": "Pre-encryption (playbook preparation stage) and post-encryption (response decision-making amid operational degradation)"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper": 2,
+      "value": "No dataset; draws on comparative analysis of companies' implemented countermeasures and public case sources; no open dataset"
+    },
+    {
+      "paper": 3,
+      "value": "No empirical dataset; artifact is a newly developed open-source tool implementing the operations-informed playbook approach, demonstrated on a ransomware IR playbook case study"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper": 2,
+      "value": "[uncertain]"
+    },
+    {
+      "paper": 3,
+      "value": "Qualitative case-study evaluation; proposes a novel metric for evaluating change in operations in coordination with critical thresholds during response - an operational impact measure rather than detection-style F1/latency metrics; no quantitative external validation"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper": 2,
+      "value": "Low: argumentative synthesis without controlled experiments or benchmark environments"
+    },
+    {
+      "paper": 3,
+      "value": "Moderate-to-good conceptually: open-source tool supports replication of the case-study demonstration, but metric validation is qualitative and there is no external sandbox/production comparison"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper": 2,
+      "value": "[uncertain]"
+    },
+    {
+      "paper": 3,
+      "value": "[uncertain]"
+    }
+  ],
+  "uncertain": [
+    "evaluation_metrics",
+    "dataset_benchmark",
+    "threat_actor_fields"
+  ],
+  "excluded_records": [
+    {
+      "paper_ref": 1,
+      "decision": "PRUNED",
+      "title": "Know Thy Ransomware Response: A Detailed Framework for Devising Effective Ransomware Response Strategies",
+      "reason": "Validity prune: Bajpai & Enbody 2023 recorded as Q2 (2023 SJR 0.595) but commonly misquoted as Q1; weakest quartile evidence in cluster, overlaps Shaked2023 playbook framework"
+    },
+    {
+      "paper_ref": 4,
+      "decision": "PRUNED",
+      "title": "The rise of ransomware: Forensic analysis for windows based ransomware attacks",
+      "reason": "Overlap prune: Kara & Aydos 2022 single-OS (Windows) forensic analysis overlaps forensic-readiness scope of Huck & Breitinger 2022; methodological redundancy"
+    }
+  ]
+}

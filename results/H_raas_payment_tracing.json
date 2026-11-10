@@ -1,0 +1,285 @@
+{
+  "title": [
+    {
+      "paper": 1,
+      "value": "A Tale of Two Markets: Investigating the Ransomware Payments Economy"
+    },
+    {
+      "paper": 2,
+      "value": "Deception in double extortion ransomware attacks: An analysis of profitability and credibility"
+    },
+    {
+      "paper": 3,
+      "value": "Inside ransomware groups: An analysis of their origins, structures, and dynamics"
+    }
+  ],
+  "authors": [
+    {
+      "paper": 1,
+      "value": "Oosthoek, K.; Cable, J.; Smaragdakis, G."
+    },
+    {
+      "paper": 2,
+      "value": "Meurs, T.; Cartwright, E.; Cartwright, A.; Junger, M.; Abhishta, A."
+    },
+    {
+      "paper": 3,
+      "value": "Phipps, A.; Nurse, J. R. C."
+    }
+  ],
+  "year": [
+    {
+      "paper": 1,
+      "value": 2023
+    },
+    {
+      "paper": 2,
+      "value": 2024
+    },
+    {
+      "paper": 3,
+      "value": 2026
+    }
+  ],
+  "journal": [
+    {
+      "paper": 1,
+      "value": "Communications of the ACM, vol. 66, no. 8, pp. 74-83"
+    },
+    {
+      "paper": 2,
+      "value": "Computers & Security (Elsevier), vol. 138, article 103670"
+    },
+    {
+      "paper": 3,
+      "value": "Computers & Security (Elsevier), vol. 160, article 104705"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper": 1,
+      "value": "Q1 (Communications of the ACM held SCImago Q1 in Computer Science (miscellaneous) continuously 1999-2025, including 2023)"
+    },
+    {
+      "paper": 2,
+      "value": "Q1 (Computers & Security held SCImago Q1 in Computer Science (miscellaneous) and Law in 2022-2025, including 2024)"
+    },
+    {
+      "paper": 3,
+      "value": "Q1 (Computers & Security held SCImago Q1 in Computer Science (miscellaneous) and Law through 2025; SJR 2025 = 1.598)"
+    }
+  ],
+  "source_database": [
+    {
+      "paper": 1,
+      "value": "Scopus-indexed journal; record verified via ACM Digital Library publisher metadata and Google Scholar"
+    },
+    {
+      "paper": 2,
+      "value": "ScienceDirect (Elsevier); also indexed in Scopus"
+    },
+    {
+      "paper": 3,
+      "value": "ScienceDirect (Elsevier); also indexed in Scopus"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper": 1,
+      "value": "https://doi.org/10.1145/3582489"
+    },
+    {
+      "paper": 2,
+      "value": "https://doi.org/10.1016/j.cose.2023.103670"
+    },
+    {
+      "paper": 3,
+      "value": "https://doi.org/10.1016/j.cose.2025.104705"
+    }
+  ],
+  "study_type": [
+    {
+      "paper": 1,
+      "value": "Empirical measurement study (economic on-chain cryptocurrency analysis of ransom payments)"
+    },
+    {
+      "paper": 2,
+      "value": "Econometric/game-theoretic study (signaling game model calibrated with real-world ransomware negotiation data)"
+    },
+    {
+      "paper": 3,
+      "value": "Systematic literature review (PRISMA approach) combined with critical qualitative analysis of dispersed threat-intelligence sources"
+    }
+  ],
+  "methodology": [
+    {
+      "paper": 1,
+      "value": "Operated Ransomwhere, an open crowdsourced ransomware payment tracker; compiled 7,321 Bitcoin addresses reported by victims of ransomware; verified on-chain via Bitcoin's transparent ledger; conducted follow-the-money analysis of 13,497 ransom payments to 87 criminal actors over five years (worth more than $101 million); characterized ecosystem structure (commodity vs RaaS), crypto resource utilization, revenue per transaction, and ransom laundering strategies including exchange usage and laundering time"
+    },
+    {
+      "paper": 2,
+      "value": "Models double-extortion ransomware as a signaling game between criminals and victims under information asymmetry; derives five distinct equilibria characterizing criminals' approaches to signaling data exfiltration; calibrates game parameters with real-world-like values; empirically grounds the model in a dataset of 452 ransomware attacks including 130 negotiations and 119 payments, with ransom-note text and leak-site publication outcomes used as credibility evidence"
+    },
+    {
+      "paper": 3,
+      "value": "PRISMA systematic review approach combined with critical analysis of over 500 dispersed sources, including ransomware group communications (leaked chat messages), court documents, security-vendor reports, and ransomware leak sites; thematic examination of the origins, structure, organisation, dynamics and nature of Conti, LockBit, and BlackCat/ALPHV"
+    }
+  ],
+  "key_findings": [
+    {
+      "paper": 1,
+      "value": "Two parallel ransomware criminal markets exist: commodity ransomware and Ransomware-as-a-Service; striking differences between markets in cryptocurrency resource utilization, revenue per transaction, and ransom laundering efficiency; identifying choke points in commodity ransomware payment activity is feasible, while it is considerably more difficult for RaaS; RaaS relies on affiliate structures, Tor payment portals with dynamically generated payment addresses, double-extortion leak threats, and fresh vulnerability exploitation; authors propose ways to trace back RaaS cryptocurrency activity"
+    },
+    {
+      "paper": 2,
+      "value": "Double extortion leads to a larger proportion of victims paying (119 of 452 paid, 27.8%) and larger ransoms - roughly 3 million euro requested when data exfiltration is signaled and roughly 1.7 million euro after negotiation - yielding more profit for criminals; five equilibria characterize exfiltration-signaling strategies; victim credibility judgments matter - in cases where victims doubted the exfiltration signal and did not pay, no data was subsequently published on leak sites, suggesting claims were often bluffing, although absence of leak-site publication is not conclusive proof that no data was compromised"
+    },
+    {
+      "paper": 3,
+      "value": "Conti, LockBit, and BlackCat/ALPHV share noteworthy similarities: Russian origins, business-like operations, emphasis on brand-building, strong leadership structures, propensity for retaliation against victims who publicize negotiations, use of RaaS models, and multi-level extortion; BlackCat paid affiliates up to 90% of ransom as commission and pioneered quadruple extortion incl. reporting victims to the U.S. SEC; Conti main group took roughly 20% commission; LockBit inflated victim counts on its leak site and LockBit 3.0 was influenced by BlackCat while LockBit Green drew on leaked Conti source code"
+    }
+  ],
+  "limitations": [
+    {
+      "paper": 1,
+      "value": "Payments data rely on voluntary victim reports to a crowdsourced aggregator, so the dataset captures only reported payments and may under-represent the true population; payment addresses restricted to Bitcoin (non-Bitcoin payment channels excluded); actor classification into commodity vs RaaS depends on manual categorization; reporting bias and lag mean recent activity is less visible"
+    },
+    {
+      "paper": 2,
+      "value": "Game-theoretic equilibria are simplifications of real negotiations; empirical calibration uses like-for-like real-world values but parameter estimation is sensitive to assumptions; ground truth on whether data was truly exfiltrated is often unknowable even in hindsight; the 452-attack dataset, while real, is limited in size and geographic scope"
+    },
+    {
+      "paper": 3,
+      "value": "Evidence base mixes systematic review sources with leaked group chats and vendor reporting whose veracity varies; analysis limited to three prominent (Western/Dutch-law enforcement-documented) groups and may not generalize to smaller or non-English groups; qualitative synthesis cannot quantify causally; ransomware groups rebrand and dissolve rapidly, so findings have a short validity horizon"
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper": 1,
+      "value": "Identifies the open problem of tracing RaaS-linked cryptocurrency (harder choke points than commodity ransomware) and proposes follow-up work on tracing RaaS on-chain activity; highlights the need for larger, systematically collected ransomware payment datasets beyond crowdsourced self-reports"
+    },
+    {
+      "paper": 2,
+      "value": "Addresses the gap between ransomware economics literature (which treated exfiltration claims as credible) and observed deception dynamics; identifies the need to model information asymmetry, signal credibility, and victim epistemics in double extortion, and to establish whether exfiltration claims can be verified (absence of leak-site publication is not conclusive evidence)"
+    },
+    {
+      "paper": 3,
+      "value": "Explicitly addresses the research gap of scarce academic, evidence-grounded knowledge on the internal origins, structures, and dynamics of ransomware threat actors, proposing that systematic academic analysis of group communications can provide a foundation for disrupting ransomware groups and their business model"
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper": 1,
+      "value": "retained-included"
+    },
+    {
+      "paper": 2,
+      "value": "retained-included"
+    },
+    {
+      "paper": 3,
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper": 1,
+      "value": "Passes eligibility: 2023 publication (2022-2026 window); Communications of the ACM is SCImago Q1 in 2023; Scopus-indexed and retrievable via Google Scholar; core Item H paper covering RaaS economics and crypto payment tracing via the Ransomwhere dataset"
+    },
+    {
+      "paper": 2,
+      "value": "Passes eligibility: 2024 publication (2022-2026 window); Computers & Security held SCImago Q1 in 2024; hosted on ScienceDirect (allowed source); core Item H paper quantifying double-extortion profitability and credibility"
+    },
+    {
+      "paper": 3,
+      "value": "Passes eligibility: 2026 publication (2022-2026 window); Computers & Security is SCImago Q1 (latest available SJR 2025 = 1.598, Q1); hosted on ScienceDirect (allowed source); named RaaS groups and leak-site evidence directly satisfy the Item H threat-actor intelligence requirement"
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper": 1,
+      "value": "Windows/enterprise IT platforms and cross-platform payment ecosystems (Bitcoin on-chain layer); platform focus is the payments/laundering infrastructure rather than infection hosts"
+    },
+    {
+      "paper": 2,
+      "value": "Windows/enterprise IT platforms (platform-agnostic economic analysis of double-extortion attacks and leak/publication outcomes)"
+    },
+    {
+      "paper": 3,
+      "value": "Cross-platform enterprise threat-actor operations (Windows-dominant strains; focuses on organizational infrastructure - leak sites, Tor payment portals, chat communications - rather than endpoint platforms)"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper": 1,
+      "value": "Post-encryption (payment, laundering, cash-out, traceability - supporting MITRE T1485/T1471 impact-stage intelligence)"
+    },
+    {
+      "paper": 2,
+      "value": "Post-encryption (extortion and negotiation phase, including leak-site publication decisions after non-payment)"
+    },
+    {
+      "paper": 3,
+      "value": "Post-encryption (extortion economics; also covers pre-encryption operational planning such as initial access broker work by affiliates)"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper": 1,
+      "value": "Ransomwhere crowdsourced ransomware payment dataset in study period: 13,497 payments to 87 criminal actors, over $101 million, 7,321 Bitcoin addresses, spanning roughly five years; described as the largest public dataset of ransomware activity at the time; Ransomwhere is an open crowdsourced tracker (data publicly reported on the platform)"
+    },
+    {
+      "paper": 2,
+      "value": "Empirical dataset of 452 real-world ransomware attacks (130 negotiations, 119 payments) used to calibrate and validate the signaling game; no publicly released open dataset confirmed"
+    },
+    {
+      "paper": 3,
+      "value": "No experimental dataset; evidence corpus of over 500 dispersed sources (group communications/leaked chats, vendor reports, court records, leak sites) synthesized qualitatively; not released as a machine-readable artifact"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper": 1,
+      "value": "Payment-volume and on-chain metrics: number of ransom payments (13,497), number of actors (87), total value (over $101 million), revenue per transaction, laundering time, exchange usage and cash-out efficiency; no classifier-style F1/precision/latency metrics (measurement study)"
+    },
+    {
+      "paper": 2,
+      "value": "Pay-rate (119/452 = 27.8% paid), ransom requested (~3 million euro) and post-negotiation amounts (~1.7 million euro), five game-equilibrium payoffs; model fit to real-world-like calibrated parameters; no detection metrics"
+    },
+    {
+      "paper": 3,
+      "value": "[uncertain]"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper": 1,
+      "value": "Moderate-to-high: reproducible on-chain verification because Bitcoin state is public and the Ransomwhere aggregator was operated openly; manual actor classification reduces exact replication fidelity; real on-chain environment rather than sandbox"
+    },
+    {
+      "paper": 2,
+      "value": "Moderate: model derivation is reproducible, but empirical calibration depends on a described-but-not-publicly-confirmed negotiation dataset; no external benchmark or test environment involved"
+    },
+    {
+      "paper": 3,
+      "value": "Moderate: PRISMA protocol improves auditability of source selection, but reliance on ephemeral sources (leak sites, leaked chats) makes systematic re-collection impossible after takedowns/shutdowns; no quantitative baseline comparisons"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper": 1,
+      "value": "87 ransomware criminal actors named/classified in the study; RaaS ecosystem emphasized with Conti's leaked playbook cited as exemplar of affiliate enablement; leak-site/double-extortion behavior described as RaaS pricing feature; full wallet-level tracing of 7,321 Bitcoin addresses covering commodity and RaaS laundering strategies"
+    },
+    {
+      "paper": 2,
+      "value": "Naming anchored on the Maze group as initiator of the double-extortion scheme (leak-site exposure of non-paying victims since November 2019); leak-site publication evidence used to evaluate criminal credibility claims; no full RaaS roster attribution; no wallet tracing"
+    },
+    {
+      "paper": 3,
+      "value": "Three RaaS groups studied in depth: Conti (successor to Ryuk/TrickBot/Emotet lineage), LockBit (and LockBit 3.0/3.0 Green variants), and BlackCat/ALPHV (successor to DarkSide/BlackMatter/REvil lineage); leak-site evidence central (victim counts, inflated LockBit postings, BlackCat SEC-reporting extortion); indirect payment coverage via affiliate commission splits (up to 90% BlackCat, ~20% Conti) rather than on-chain tracing"
+    }
+  ],
+  "uncertain": [
+    "evaluation_metrics"
+  ]
+}

@@ -1,0 +1,75 @@
+topic: "Ransomware detection, prevention, and incident response — systematic literature review (PRISMA-style)"
+source_constraint:
+  allowed_databases:
+    - "Google Scholar"
+    - "IEEE Xplore"
+    - "ScienceDirect"
+    - "Scimago Journal & Country Rank (SJR)"
+    - "Scopus"
+    - "PRISMA statement (prisma-statement.org)"
+  note: "Every retained paper must be traceable to one of the six sources; no other venues for paper discovery. Quartile verification is done via Scimago SJR."
+eligibility:
+  publication_window: "2022-2026"
+  quartile: "Q1 or Q2 (Scimago SJR)"
+  target_papers: 25
+items:
+  - item: "A. AI/ML-based ransomware detection"
+      description: "Deep learning, RF/SVM, ensemble classifiers and recent SLRs on AI-driven detection"
+    candidate_papers:
+      - "Chaieb et al. 2023 IEEE Access — AI ransomware detection taxonomy"
+      - "Ransomware Detection Using ML: A Review — IEEE Access 2024 (10521643)"
+      - "A Survey of Ransomware Detection Methods 2019–2025 — IEEE Access 2025 (10945868)"
+      - "AI-Based Ransomware Detection: A Comprehensive Review — IEEE Access 2024 (10681072)"
+  - item: "B. Behavioural, content & deception-based detection"
+      description: "Honeypots, canary/honey-files, content-based/hardware SSD detection"
+    candidate_papers:
+      - "Min et al. 2022 IEEE TCAD — content-based detection + backup SSD"
+      - "Honeyfile-based Android ransomware detection — Sensors 2024"
+  - item: "C. Traffic & network-based detection"
+      description: "Encrypted-traffic analysis, network IDS for ransomware campaigns"
+  - item: "D. Explainability, reproducibility & benchmark validity"
+      description: "XAI (LIME/SHAP), replicability systematizations, dataset limitations"
+    candidate_papers:
+      - "EuroS&PW 2026 — replicability of ML-based ransomware detection"
+  - item: "E. AI-era threat models (LLM/GenAI ransomware)"
+      description: "Ransomware 3.0, PromptLock, GenAI-generated polymorphic payloads"
+  - item: "F. Prevention & resilience engineering"
+      description: "Backups/immutability, zero-trust, patching, MFA, game-theoretic defense modeling"
+    candidate_papers:
+      - "Modelling organizational ransomware recovery — Journal of Cybersecurity 2025"
+      - "Game-theoretic multistage ransomware defense — IEEE TSC"
+      - "Staged event-driven access control vs ransomware — Computers & Security 2023"
+  - item: "G. Platform expansion (OT/IoT/ICS, cloud/hypervisor, cross-platform)"
+      description: "SCADA/PLC protection, ESXi/hypervisor ransomware, Android/Linux/NAS"
+    candidate_papers:
+      - "Securing IIoT against ransomware — J. Network & Computer Applications 2024"
+      - "ICS ransomware early detection — Future Internet 2023"
+  - item: "H. RaaS, double extortion & payment tracing"
+      description: "Ransomware-as-a-service economics, leak-site intelligence, crypto tracing"
+  - item: "I. Incident response, playbooks & forensic readiness"
+      description: "Response frameworks, MTTD/MTTC metrics, forensic artifacts from encryption"
+    candidate_papers:
+      - "Know Thy Ransomware Response — ACM Digital Threats 2023"
+      - "Huck & Breitinger 2022 IEEE S&P — forensic readiness"
+      - "Operations-informed incident response playbooks — Computers & Security 2023"
+      - "Forensic analysis for Windows ransomware — ESWA 2022 (Kara & Aydos)"
+  - item: "J. Victimology, economics & regulatory response"
+      description: "Payment decision factors, cyber insurance, NIS2/SEC reporting, payment bans"
+    candidate_papers:
+      - "Ransomware payment decisions in SMEs — European Journal of Criminology 2025"
+      - "NAS ransomware victimology — Global Crime 2026"
+  - item: "K. Sectoral empirical impact studies"
+      description: "Quantified consequences: hospital outcomes, ED visits, PHI breaches"
+    candidate_papers:
+      - "Hospitals & patient outcomes — AEJ: Economic Policy 2026"
+      - "Ransomware attacks & ED visits — JAMA 2024"
+      - "Ransomware & PHI breaches — JAMA Network Open 2025"
+  - item: "L. Taxonomies & prior systematic reviews (co-citation baseline)"
+      description: "Existing SLRs used as comparison baseline and PRISMA pattern sources"
+    candidate_papers:
+      - "Albshaier et al. 2024 Applied Sciences — comprehensive SLR"
+      - "A Survey on Ransomware: Evolution, Taxonomy, Defense — ACM Computing Surveys 2022"
+execution:
+  batch_size: 4
+  items_per_agent: 3
+  output_dir: "./ransomware-slr/results"

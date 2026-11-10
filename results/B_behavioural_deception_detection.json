@@ -1,0 +1,231 @@
+{
+  "title": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "A Content-Based Ransomware Detection and Backup Solid-State Drive for Ransomware Defense"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Lightweight Crypto-Ransomware Detection in Android Based on Reactive Honeyfile Monitoring"
+    }
+  ],
+  "authors": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Min, D.; Ko, Y.; Walker, R.; Lee, J.; Kim, Y."
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Gómez-Hernández, J.A.; García-Teodoro, P."
+    }
+  ],
+  "year": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": 2022
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": 2024
+    }
+  ],
+  "journal": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (Vol. 41, No. 7, July 2022, pp. 2038-2051; first published online 26 July 2021)"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Sensors (MDPI), Vol. 24, Issue 9, Article 2679, published 23 April 2024; PMID 38732785, PMCID PMC11085278"
+    }
+  ],
+  "quartile_sjr": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Q1 (Scimago SJR 2022: SJR 0.971; Q1 in Computer Graphics and Computer-Aided Design and in Electrical and Electronic Engineering, Q2 in Software)"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Q1 (Scimago SJR 2024: SJR 0.764; Q1 in Instrumentation and Analytical Chemistry, Q2 in Information Systems and Electrical and Electronic Engineering)"
+    }
+  ],
+  "source_database": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "IEEE Xplore (record 9493745); cross-verified via dblp (TCAD Vol. 41) and Korea University Pure repository"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "PubMed Central (PMC11085278); cross-verified via MDPI (doi.org/10.3390/s24092679) and DOAJ"
+    }
+  ],
+  "doi_url": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "https://doi.org/10.1109/TCAD.2021.3099084"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "https://doi.org/10.3390/s24092679"
+    }
+  ],
+  "study_type": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Empirical experiment / system design: hardware-software co-designed SSD device (AMOEBA) implemented on Microsoft SSD simulator and prototyped on the OpenSSD platform, evaluated with real ransomware workloads"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Empirical experiment / system design: deception-based detection tool (FileMonitor app) experimentally evaluated on Android devices with real crypto-ransomware samples"
+    }
+  ],
+  "methodology": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Device-level defense inside the SSD controller: (1) a hardware accelerator runs content-based detection algorithms at NAND-flash speed to identify ransomware-encrypted pages (entropy/content analysis of page data inside the FTL), and (2) a fine-grained backup control mechanism maintains intra-device backup copies without extra storage so corrupted data can be restored. Implemented on the Microsoft SSD simulator and prototyped on OpenSSD; evaluated with block-level traces collected while running real ransomware; compared against the state-of-the-art backup-capable SSD (FlashGuard)."
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Deception + reactive monitoring: honeyfiles (hidden, attractively named trap files) are deployed across the external-storage directory tree; Android's FileObserver service (wrapping Linux inotify) raises kernel-driven alerts when trap files are accessed in suspicious sequences, without continuous polling. A whitelist of pre-installed apps (via QUERY_ALL_PACKAGES) and blacklist identify and kill the offending process (KILL_BACKGROUND_PROCESSES). Evaluated with crypto-ransomware samples on Android, measuring detection, notification response time under concurrent app load, and encryption-speed trade-offs. FileMonitor app released on GitHub."
+    }
+  ],
+  "key_findings": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "AMOEBA achieves high ransomware detection accuracy with negligible performance overhead, and outperforms FlashGuard in performance and space efficiency for intra-device backup; the hardware-accelerated content-based detector catches encryption activity even when host-level detection is evaded, and the fine-grained backup mechanism minimises storage overhead versus full-copy backup."
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Reactive honeyfile monitoring achieves high detection accuracy at near-zero steady-state resource cost: notifying 200 monitored events took 1-200 ms with 1 running app, 1-450 ms with 4 apps, and 1-700 ms with 9 apps; encrypting a file takes 10 ms (8 KB) or 70 ms (60 KB), so with distributed 60 KB decoys a sample would encrypt about ten files before detection, confirming early-detection behaviour comparable to the authors' R-Locker tool for Linux/Windows."
+    }
+  ],
+  "limitations": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Acknowledged/observed: detection relies on content-level indicators of encryption, so encryption-at-rest or compressed/already-encrypted writes may confound it; evaluation is simulator-based (Microsoft SSD simulator) plus an OpenSSD prototype rather than mass-market SSD hardware; device-level backup cannot protect data outside the protected SSD; no adversarial ransomware specifically designed to evade FTL-level inspection was tested."
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Acknowledged: evaluation must be extended with more crypto-ransomware and other file-targeting malware samples (limited by dataset resources); detection depends on correct characterisation of file-access sequences, else false alerts occur. Observed: detection patterns are hard-coded in the app (no configuration-file extensibility yet); honeyfiles cannot guarantee an attack will reach the traps; integration with other security frameworks is unanalysed."
+    }
+  ],
+  "research_gaps": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Gap addressed: ransomware that evades host-level behavioural detection and destroys software backups - solved by moving detection and backup into the storage device itself. Remaining gaps: scaling hardware content-inspection to modern SSD workloads, defending against ransomware-aware storage attacks, and reducing backup space overhead further."
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Gap addressed: ML-based ransomware detectors are too computationally heavy for resource-limited mobile/IoT devices - solved with lightweight reactive deception. Remaining gaps: larger-scale malware evaluation, configurable detection patterns, and integration with broader mobile security frameworks (e.g., BYOD policy enforcement)."
+    }
+  ],
+  "prisma_stage": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "retained-included"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "retained-included"
+    }
+  ],
+  "inclusion_rationale": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Passes: journal issue dated July 2022 (within 2022-2026; online-first July 2021), IEEE TCAD is SJR Q1 in 2022 (SJR 0.971), sourced from IEEE Xplore (record 9493745 verified via dblp). Core content-based detection + backup-SSD candidate as nominated."
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Passes: published April 2024, Sensors is SJR Q1 in 2024 (Instrumentation; SJR 0.764), verified via PMC11085278 / DOI 10.3390/s24092679. Nominated candidate confirmed accurate (honeyfile-based Android ransomware detection, Sensors 2024)."
+    }
+  ],
+  "platform_environment": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Storage-device level (SSD controller/FTL); evaluated on Microsoft SSD simulator and OpenSSD platform with host workloads from Windows ransomware execution"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Android (external storage; FileObserver/inotify); builds on the authors' prior Linux and Windows R-Locker deployments"
+    }
+  ],
+  "kill_chain_stage": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "During-encryption detection (content inspection of pages as they are written, T1485) plus post-encryption recovery via intra-SSD backup restore"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Pre-encryption / early detection: traps are accessed during the ransomware's file-scanning/encryption ramp-up (T1485), before mass encryption completes"
+    }
+  ],
+  "dataset_benchmark": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Real ransomware workloads: block-level I/O traces collected while running actual ransomware against the Microsoft SSD simulator and OpenSSD prototype; benchmarked against FlashGuard SSD; traces not stated to be publicly open-sourced"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Real crypto-ransomware samples executed on Android test devices; the FileMonitor monitoring app is open-sourced on GitHub (github.com/JA-Gomez-Hernandez/FileMonitor); the ransomware sample set itself is not released as a named public dataset"
+    }
+  ],
+  "evaluation_metrics": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Ransomware detection accuracy; I/O performance overhead (throughput/latency vs baseline SSD); backup space overhead; comparative performance and space efficiency versus FlashGuard"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Detection accuracy/efficacy; notification response time (ms per 200 events) under 1/4/9 concurrent apps; encryption cost per file size (10 ms/8 KB, 70 ms/60 KB); resource consumption (memory, CPU, battery - near zero in reactive mode)"
+    }
+  ],
+  "reproducibility": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Moderate risk: real-environment grounding via OpenSSD hardware prototype and real ransomware traces strengthens validity, but the simulator setup and trace datasets are not clearly released, limiting independent replication; baseline comparison to FlashGuard provided"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Good: FileMonitor app code is publicly available on GitHub and evaluation used real Android devices with real samples; the exact ransomware sample list and versions are described in the paper but not packaged as a public dataset"
+    }
+  ],
+  "threat_actor_fields": [
+    {
+      "paper_id": "min2022_amoeba_tcad",
+      "value": "Not applicable: no RaaS group naming, leak-site evidence or payment-wallet tracing"
+    },
+    {
+      "paper_id": "gomezhernandez2024_honeyfile_android",
+      "value": "Not applicable: no RaaS group naming, leak-site evidence or payment-wallet tracing"
+    }
+  ],
+  "excluded_records": [
+    {
+      "candidate_as_cited": "Min et al. 2022 IEEE TCAD",
+      "actual_record": "Min, D.; Ko, Y.; Walker, R.; Lee, J.; Kim, Y. 'A Content-Based Ransomware Detection and Backup Solid-State Drive for Ransomware Defense', IEEE TCAD 41(7):2038-2051, July 2022",
+      "decision": "RETAINED",
+      "reason": "Candidate description verified accurate; online-first 2021 but issue year 2022, SJR Q1 2022."
+    },
+    {
+      "candidate_as_cited": "Honeyfile-based Android ransomware detection - Sensors 2024 (PMC11085278)",
+      "actual_record": "Gómez-Hernández, J.A.; García-Teodoro, P. 'Lightweight Crypto-Ransomware Detection in Android Based on Reactive Honeyfile Monitoring', Sensors 24(9):2679, 2024",
+      "decision": "RETAINED",
+      "reason": "Candidate description verified accurate; Sensors SJR Q1 (Instrumentation) in 2024."
+    },
+    {
+      "candidate_as_cited": "None (supplementary search hit)",
+      "actual_record": "Fang, X.; Song, E.; Ning, C.; Huseynov, H.; Saadawi, T. 'Crypto-Ransomware Detection Through a Honeyfile-Based Approach with R-Locker', Mathematics 13(12):1933, 2025",
+      "decision": "RETAINED",
+      "reason": "Added via DOAJ/MDPI search to give the deception pillar a third 2022-2026 record; Mathematics is SJR Q2 in 2025."
+    },
+    {
+      "paper_ref": "fang2025",
+      "decision": "PRUNED",
+      "title": "Crypto-Ransomware Detection Through a Honeyfile-Based Approach with R-Locker",
+      "reason": "Validity prune: dataset_benchmark unidentifiable (uncertain), and honeyfile approach overlaps gomezhernandez2024_honeyfile_android which has full parameter disclosure"
+    }
+  ],
+  "uncertain": [
+    "dataset_benchmark"
+  ]
+}
